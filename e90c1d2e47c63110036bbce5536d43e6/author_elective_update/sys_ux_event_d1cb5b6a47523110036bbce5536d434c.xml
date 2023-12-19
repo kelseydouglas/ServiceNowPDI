@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>NOW_UXF_PAGE#SET_LOADING_STATE_RELAY_14289955</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Set loading state Relay (Select default ATT)</label>
+        <props>[
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Loading",
+        "name": "loading"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Loading text",
+        "name": "label"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Action button",
+        "name": "action"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Non blocking",
+        "name": "nonBlocking"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Action button",
+  "comment" : ""
+}, {
+  "message" : "Loading",
+  "comment" : ""
+}, {
+  "message" : "Loading text",
+  "comment" : ""
+}, {
+  "message" : "Non blocking",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 15:03:19</sys_created_on>
+        <sys_id>d1cb5b6a47523110036bbce5536d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set loading state Relay (Select default ATT)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_d1cb5b6a47523110036bbce5536d434c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 15:03:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=d1cb5b6a47523110036bbce5536d434c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_event_d1cb5b6a47523110036bbce5536d434c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>NOW_UXF_PAGE#SET_LOADING_STATE_RELAY_14289955</event_name><explicit_api_name/><interfaces/><label>Set loading state Relay (Select default ATT)</label><props>[
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Loading",
+        "name": "loading"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Loading text",
+        "name": "label"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Action button",
+        "name": "action"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Non blocking",
+        "name": "nonBlocking"
+    }
+]</props><required_translations>[ {
+  "message" : "Action button",
+  "comment" : ""
+}, {
+  "message" : "Loading",
+  "comment" : ""
+}, {
+  "message" : "Loading text",
+  "comment" : ""
+}, {
+  "message" : "Non blocking",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-07 15:03:19</sys_created_on><sys_id>d1cb5b6a47523110036bbce5536d434c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set loading state Relay (Select default ATT)</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_event_d1cb5b6a47523110036bbce5536d434c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-07 15:03:19</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=d1cb5b6a47523110036bbce5536d434c"/></record_update>]]></payload>
+        <payload_hash>1803595781</payload_hash>
+        <record_name>Set loading state Relay (Select default ATT)</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 15:03:19</sys_created_on>
+        <sys_id>30eb17ea47523110036bbce5536d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18baa4f35630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 15:03:19</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>34eb17eacc52311090fad5b7ddd931d5</update_guid>
+        <update_guid_history>34eb17eacc52311090fad5b7ddd931d5:1803595781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 15:12:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>04fb30b43f3e44089ca5aee8e11119f1</sys_id>
+        <sys_metadata>d1cb5b6a47523110036bbce5536d434c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set loading state Relay (Select default ATT)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_event_d1cb5b6a47523110036bbce5536d434c</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_d1cb5b6a47523110036bbce5536d434c">30eb17ea47523110036bbce5536d43d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 15:12:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

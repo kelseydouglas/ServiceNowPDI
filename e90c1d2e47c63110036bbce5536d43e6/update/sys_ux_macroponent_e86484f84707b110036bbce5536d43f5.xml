@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "cf203eb517e037bf0a780f0de3ae544e",
+            "type": "MACROPONENT"
+        },
+        "elementId": "agent_assist_1",
+        "elementLabel": "Agent assist 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "form_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "87d83e39b38eae90b654532b737b2dc9"
+        },
+        "propertyValues": {
+            "cxsTableConfig": {
+                "type": "JSON_LITERAL",
+                "value": "e15061a4b30303002bf182c136a8dc34"
+            },
+            "fields": {
+                "binding": {
+                    "address": [
+                        "record",
+                        "fields"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "prefetchData": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "record",
+                        "sysId"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "table": {
+                "binding": {
+                    "address": [
+                        "record",
+                        "table"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "usePreferredResourceOnLoad": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "form_1",
+        "elementLabel": "Form 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputExtraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputSysId": {
+                "type": "JSON_LITERAL",
+                "value": "ae96d73de865211076da10591ad2871d"
+            },
+            "inputTable": {
+                "type": "JSON_LITERAL",
+                "value": "task"
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "binding": {
+                    "address": [
+                        "view"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "agent_assist_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Attachments Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 19:39:29</sys_created_on>
+        <sys_id>e86484f84707b110036bbce5536d43f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Attachments Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e86484f84707b110036bbce5536d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 19:41:41</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=e86484f84707b110036bbce5536d43f5"/>
+</record_update>

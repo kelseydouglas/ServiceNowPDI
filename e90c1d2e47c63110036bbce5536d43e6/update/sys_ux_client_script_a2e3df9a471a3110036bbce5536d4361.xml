@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Creation Default">9c92135a471a3110036bbce5536d433e</macroponent>
+        <name>Call Create Order Data Broker</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    console.log('orderSysID BEFORE exceute :' + api.state.orderSysId);
+    if (api.context.props.sysId == "" || api.context.props.sysId == null || api.context.props.sysId === undefined || api.context.props.sysId === '-1') {
+        let date_ob = new Date();
+        // adjust 0 before single digit date
+        let date = ("0" + date_ob.getDate()).slice(-2);
+        // current month
+        let month = ("0" + (date_ob.getMonth() + 1)).slice(-2);
+        // current year
+        let year = date_ob.getFullYear();
+        // current hours
+        let hours = date_ob.getHours();
+        // current minutes
+        let minutes = date_ob.getMinutes();
+        // current seconds
+        let seconds = date_ob.getSeconds();
+        // prints date & time in YYYY-MM-DD HH:MM:SS format
+        var order_date = (year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
+        api.data.create_order.execute({
+            table: 'sn_ind_tmt_orm_order',
+            templateFields: 'account=' + api.state.account.id + '^contact=' + api.state.contact.id + '^' + "order_date=" + order_date + "^order_category=" +api.context.props.category+"^order_type="+api.context.props.type,
+            useSetDisplayValue: null
+        });
+    }
+console.log('orderSysID after exceute :' + api.state.orderSysId);
+console.log('sysId after exceute :' + api.context.props.sysId);
+    
+
+    if(api.context.props.sysId != undefined && api.context.props.sysId != "" && api.context.props.sysId != "-1"){
+
+        var route = 'select';
+        var fields = {
+                    'sysId':api.context.props.sysId,
+                    'category':api.context.props.category,
+                    'type':api.context.props.type,
+                    'orderNumber':api.state.orderNumber
+                    };
+        if (api.context.props.type == "change" || api.context.props.type == "disconnect"){
+            var route = 'invt_select';
+        }
+        var payload = {
+                route: route,
+                fields: fields
+            };
+
+
+
+        api.emit('SN_NAVIGATE_TO_STEP_RELAY_Creation_ATT', payload);
+    }
+        
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 19:50:11</sys_created_on>
+        <sys_id>a2e3df9a471a3110036bbce5536d4361</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Call Create Order Data Broker</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_a2e3df9a471a3110036bbce5536d4361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-15 15:46:39</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

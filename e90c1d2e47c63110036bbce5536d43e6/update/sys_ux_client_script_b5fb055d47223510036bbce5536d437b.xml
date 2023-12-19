@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Create default">adcb095d47223510036bbce5536d43a5</macroponent>
+        <name>Check Account has Data</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    //Account Data
+    var results = api.data.get_all_accounts.results;
+
+    //Clear Account, if Account DB is empty
+    if(results == undefined || results.length == 0){
+        api.setState('account',{'id':'-1','label':''});
+        api.setState('account_query', '');
+    } 
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-15 17:46:21</sys_created_on>
+        <sys_id>b5fb055d47223510036bbce5536d437b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check Account has Data</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_b5fb055d47223510036bbce5536d437b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-15 17:46:21</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

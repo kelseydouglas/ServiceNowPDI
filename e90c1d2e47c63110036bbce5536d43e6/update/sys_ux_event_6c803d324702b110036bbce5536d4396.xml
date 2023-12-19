@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>TOGGLE_MODAL_RELAY</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Toggle modal relay</label>
+        <props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Modal",
+        "mandatory": false,
+        "name": "modalId",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "Show Modal",
+        "mandatory": false,
+        "name": "showModal",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "Modal display options",
+        "mandatory": false,
+        "name": "displayOptions",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Modal display options",
+  "comment" : ""
+}, {
+  "message" : "Show Modal",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 16:42:13</sys_created_on>
+        <sys_id>6c803d324702b110036bbce5536d4396</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Toggle modal relay</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_6c803d324702b110036bbce5536d4396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:18:12</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c803d324702b110036bbce5536d4396"/>
+</record_update>

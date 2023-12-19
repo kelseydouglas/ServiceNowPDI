@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Form Test Duplicate Copy">5512ee8547b23110036bbce5536d43a0</macroponent>
+        <macroponent_config/>
+        <name>ATT Test Tab</name>
+        <order>0</order>
+        <parent_macroponent display_value="Form Test default">971c2c5f47a6b110036bbce5536d43f0</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="ATT Test Tab">d009b0b147f23110036bbce5536d43b7</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:57:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>853b38f147f23110036bbce5536d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ATT Test Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_853b38f147f23110036bbce5536d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:57:40</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=853b38f147f23110036bbce5536d435c"/>
+</record_update>

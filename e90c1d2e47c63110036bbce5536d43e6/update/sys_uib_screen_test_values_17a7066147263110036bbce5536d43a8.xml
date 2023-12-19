@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputTable": "sn_ind_tmt_orm_order_line_item",
+        "screen": "",
+        "selectedTabIndex": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false,
+        "userPrefs": "",
+        "view": "CreateOrder"
+    },
+    "sysId": "ae96d73de865211076da10591ad2871d",
+    "0c3568c75bee0110d78e9e7fb681c784": {
+        "activityLogs": "",
+        "extraParams": "",
+        "fields": "",
+        "query": null,
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": "",
+        "views": ""
+    },
+    "b47c9480075111106670d9630ad300fe": {
+        "inputParentSysId": "33e59c9f4726b110036bbce5536d4314",
+        "inputParentTable": "x_876519_sd_voice_customer_facing_details",
+        "inputPlaybookExperience": "0561fcf547b23110036bbce5536d4306",
+        "inputRecordGeneratorQuery": null,
+        "inputSelectedPlaybookContextId": null,
+        "inputSelectedStageContextId": null,
+        "inputSelectedActivityContextId": null
+    }
+}</macroponent_config>
+        <screen display_value="Configure default">d7a7066147263110036bbce5536d43a4</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 16:37:10</sys_created_on>
+        <sys_id>17a7066147263110036bbce5536d43a8</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_17a7066147263110036bbce5536d43a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 15:39:29</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

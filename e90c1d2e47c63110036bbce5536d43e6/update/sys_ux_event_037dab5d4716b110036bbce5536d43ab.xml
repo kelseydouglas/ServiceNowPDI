@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NOW_UXF_PAGE#SET_LOADING_STATE_RELAY_12345</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Set loading state Relay (Configure default ATT)</label>
+        <props>[
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Loading",
+        "name": "loading"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Loading text",
+        "name": "label"
+    },
+    {
+        "fieldType": "string",
+        "interfaceApiName": null,
+        "label": "Action button",
+        "name": "action"
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": null,
+        "label": "Non blocking",
+        "name": "nonBlocking"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Action button",
+  "comment" : ""
+}, {
+  "message" : "Loading",
+  "comment" : ""
+}, {
+  "message" : "Loading text",
+  "comment" : ""
+}, {
+  "message" : "Non blocking",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 19:08:19</sys_created_on>
+        <sys_id>037dab5d4716b110036bbce5536d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set loading state Relay (Configure default ATT)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_037dab5d4716b110036bbce5536d43ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 19:08:19</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=037dab5d4716b110036bbce5536d43ab"/>
+</record_update>

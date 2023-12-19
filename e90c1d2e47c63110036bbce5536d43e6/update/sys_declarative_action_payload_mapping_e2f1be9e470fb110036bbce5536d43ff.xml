@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="OPEN_MODAL">44c1ba9e470fb110036bbce5536d4340</action_payload_definition>
+        <label>OPEN_MODAL List</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <payload_map>EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 00:08:49</sys_created_on>
+        <sys_id>e2f1be9e470fb110036bbce5536d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OPEN_MODAL List</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_e2f1be9e470fb110036bbce5536d43ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 00:08:49</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

@@ -1,0 +1,2727 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "07b0bb09419d26f0af681796bc548f19",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "resizable_panes_1",
+                    "elementLabel": "Resizable panes 1",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "clohhftvljaadzfddffhhqwgmeefwiid",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "now_resizable_pane.NOW_RESIZABLE_PANES#PANE_SIZES#CHANGED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "now_resizable_pane.NOW_RESIZABLE_PANES#PANE_SIZES#CHANGED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": {
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        },
+                                        "sysId": "64803d324702b110036bbce5536d4396"
+                                    },
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": null,
+                                    "targetId": "clohhftvljaadzgddffhhqrtggvicccd",
+                                    "type": "CLIENT_SCRIPT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d5119191a4d27b765b12d0b563e00ee6",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "list_nav",
+                                "elementLabel": "List nav",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "columns": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "conditions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "configurationId": {
+                                        "binding": {
+                                            "address": [
+                                                "listConfigId"
+                                            ],
+                                            "category": "app"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "error": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "groupByField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideCellFilter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideCheckboxHover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnFiltering": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnGrouping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnResizing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnSorting": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDragAndDrop": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideEmptyStateImage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFirstPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHeader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightedValues": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideInlineEditing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastRefreshedText": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListActions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListCreation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideMenuButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideNextPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideOptionToSaveAs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePagination": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelAdvanced": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelConditionDelete": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelFooter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelRestore": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePersonalization": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePreviousPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideQuickEdit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRecordCountBadge": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideReferenceLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRefreshButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowsPerPageSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSelectAll": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSharingButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideTabs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "highlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "listId": {
+                                        "binding": {
+                                            "address": [
+                                                "listId"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "listMenuCrud": {
+                                        "binding": {
+                                            "address": [
+                                                "CRUD"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "listMenuOpen": {
+                                        "script": {
+                                            "apiVersion": "2.0.0",
+                                            "controllerElementId": null,
+                                            "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api}) {\n\treturn !api.state.listMenuOpen;\n}",
+                                            "scriptSysId": "a8803d324702b110036bbce5536d4395",
+                                            "target": null
+                                        },
+                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                    },
+                                    "maxCharacters": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 0
+                                    },
+                                    "overrideWordWrapUserPref": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "selectedListId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "targetTable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "tiny": {
+                                        "binding": {
+                                            "address": [
+                                                "tinyId"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "title": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "view": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "wordWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": "left",
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "list_1",
+                                "elementLabel": "List 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "actionConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "allRecordsSelected": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "columns": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "columns"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "daClientActionContract": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "error": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "exceptedRecords": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
+                                        ]
+                                    },
+                                    "fixedQuery": null,
+                                    "groupByField": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "groupByField"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "headerSize": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "headingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 1
+                                    },
+                                    "hideCellFilter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideCheckboxHover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnFiltering": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnGrouping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnReorder": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnResizing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnSorting": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDeclarativeActions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDotwalk": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDragDrop": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideEmptyStateImage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFilterPanel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFirstPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHeader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightedValues": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideInlineEditing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastRefreshedText": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLimitSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListSharing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideMenuButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideNextPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideOptionToSaveAs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePagination": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelAdvanced": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelConditionDelete": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelFooter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelRestore": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePersonalization": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePreviousPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideQuickEdit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRefreshButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSelectAll": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitleRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideUnnecessaryRowSelectors": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "highlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "color": "",
+                                            "patterns": [
+                                                
+                                            ]
+                                        }
+                                    },
+                                    "highlightedValueConfigId": {
+                                        "binding": {
+                                            "address": [
+                                                "highlightedValueConfig"
+                                            ],
+                                            "category": "app"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "isRefList": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "limit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "listMenuOpen": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "listTitle": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "All Active Tasks"
+                                        }
+                                    },
+                                    "maxCharLimit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 4000
+                                    },
+                                    "maxColumns": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "menuSelection": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "overrideWordWrapUserPref": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "page": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 1
+                                    },
+                                    "query": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "conditions"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "recordSelectedQuery": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedSysId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedTable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedView": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "refreshRequested": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "selectedListId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "selectedRecords": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
+                                        ]
+                                    },
+                                    "table": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "table"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "tiny": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "view": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "view"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "wordWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": "right",
+                                "styles": null
+                            }
+                        ]
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "actionBar": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "actionBarConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "leftIcon": "record-activity-details-fill",
+                                "leftTooltip": "Display left pane only",
+                                "middleIcon": "record-activity-stream-outline",
+                                "middleTooltip": "Display both panes",
+                                "rightIcon": "record-activity-outline",
+                                "rightTooltip": "Display right pane only"
+                            }
+                        },
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "bottomPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Bottom pane"
+                        },
+                        "bottomPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        },
+                        "defaultDisplayedPane": {
+                            "binding": {
+                                "address": [
+                                    "listDisplayPanes"
+                                ]
+                            },
+                            "type": "STATE_BINDING"
+                        },
+                        "defaultDividerPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": 50
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "displayDividerButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "dividerAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Resizable panes divider"
+                        },
+                        "dividerButtonConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "buttonProps": {
+                                    "icon": "chevron-left-outline"
+                                },
+                                "position": "top"
+                            }
+                        },
+                        "dividerStyles": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "leftPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Left pane"
+                        },
+                        "leftPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        },
+                        "panesPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": "left-right"
+                        },
+                        "rightPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Right pane"
+                        },
+                        "rightPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        },
+                        "topPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Top pane"
+                        },
+                        "topPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "resizable_panes_1",
+                            "styles": {
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "367f89e30b102010a8b1c96237673a85",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "dynamic_routing_list",
+        "elementLabel": "Dynamic Routing List",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "routeConfigId": {
+                "binding": {
+                    "address": [
+                        "routeConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "e56aae0873231010a0a79329faf6a768",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "list_navigation_information",
+        "elementLabel": "List Navigation",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "applicationId": {
+                "type": "JSON_LITERAL",
+                "value": "1122346"
+            },
+            "listUrlId": {
+                "binding": {
+                    "address": [
+                        "tinyId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "tinyUrlId": {
+                "binding": {
+                    "address": [
+                        "tinyId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "83114bc453231010c495ddeeff7b12d9",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "getListPreferences",
+        "elementLabel": "Get List Preferences",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "includeRoles": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "preferences": {
+                "binding": {
+                    "address": [
+                        "listPreferences"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "0b84084c536910105a20ddeeff7b124b",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "setListPreference",
+        "elementLabel": "Set List Preference",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "name": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "value": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "53f70741b7a32010415d6c91de11a9c0",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "elementId": "resolve_route_parent_tables",
+        "elementLabel": "Resolve route parent tables",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "navigationPayload",
+                        "fields",
+                        "sysId"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            },
+            "table": {
+                "binding": {
+                    "address": [
+                        "navigationPayload",
+                        "fields",
+                        "table"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "get_customer_order_detail",
+        "elementLabel": "Get Customer Order Detail",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "recordId": {
+                "binding": {
+                    "address": [
+                        "customerOrderId"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "order_category,external_system,channel,order_type,account,contact,state"
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sn_ind_tmt_orm_order"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    }
+]</data>
+        <description/>
+        <dispatched_events>68803d324702b110036bbce5536d4396,a8803d324702b110036bbce5536d4396,e8803d324702b110036bbce5536d4396,2c803d324702b110036bbce5536d4396,6c803d324702b110036bbce5536d4396,ac803d324702b110036bbce5536d4396</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events>ec803d324702b110036bbce5536d4396,20803d324702b110036bbce5536d4397,60803d324702b110036bbce5536d4397</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "rules": {
+                    "grid-area": "main"
+                },
+                "slotName": "Main",
+                "styles": {
+                    "display": "flex",
+                    "flex-direction": "column"
+                }
+            },
+            {
+                "element_id": "container_1",
+                "styles": {
+                    "height": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "grid",
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "grid"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "listId",
+        "mandatory": false,
+        "name": "listId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "configId",
+        "mandatory": false,
+        "name": "configId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "tinyId",
+        "mandatory": false,
+        "name": "tinyId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "contents",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "displayOptions",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "name": "bare",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "CRUD",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "name": "listMenuOpen",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "[object Object]"
+        },
+        "name": "tinyId",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "[object Object]"
+        },
+        "name": "listId",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "listRefresh",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": false
+        },
+        "name": "wrapListText",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "260px"
+        },
+        "name": "listDividerPosition",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "workspace.layout.listMenuRatio"
+        },
+        "name": "listRatioPreference",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "workspace.layout.listMenuOpen"
+        },
+        "name": "listMenuOpenPreference",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "workspace.layout.listMenuRatio,workspace.layout.listMenuOpen"
+        },
+        "name": "listPreferences",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "both"
+        },
+        "name": "listDisplayPanes",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "navigationPayload",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "initialValue": {
+            "binding": {
+                "address": [
+                    "routeParentTables"
+                ],
+                "category": "app"
+            },
+            "type": "CONTEXT_BINDING"
+        },
+        "name": "routeParentTables",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "listContentItems",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "[object Object]"
+        },
+        "name": "customerOrderId",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "newClientStateParam18",
+        "shape": "",
+        "valueType": "json"
+    }
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 15:33:19</sys_created_on>
+        <sys_id>d3af25b24702b110036bbce5536d43de</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_macroponent_d3af25b24702b110036bbce5536d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:23:37</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=d3af25b24702b110036bbce5536d43de"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_macroponent_d3af25b24702b110036bbce5536d43de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "07b0bb09419d26f0af681796bc548f19",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "resizable_panes_1",
+                    "elementLabel": "Resizable panes 1",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "clohhftvljaadzfddffhhqwgmeefwiid",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "now_resizable_pane.NOW_RESIZABLE_PANES#PANE_SIZES#CHANGED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "now_resizable_pane.NOW_RESIZABLE_PANES#PANE_SIZES#CHANGED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": {
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        },
+                                        "sysId": "64803d324702b110036bbce5536d4396"
+                                    },
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": null,
+                                    "targetId": "clohhftvljaadzgddffhhqrtggvicccd",
+                                    "type": "CLIENT_SCRIPT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d5119191a4d27b765b12d0b563e00ee6",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "list_nav",
+                                "elementLabel": "List nav",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "columns": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "conditions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "configurationId": {
+                                        "binding": {
+                                            "address": [
+                                                "listConfigId"
+                                            ],
+                                            "category": "app"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "error": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "groupByField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideCellFilter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideCheckboxHover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnFiltering": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnGrouping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnResizing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnSorting": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDragAndDrop": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideEmptyStateImage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFirstPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHeader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightedValues": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideInlineEditing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastRefreshedText": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListActions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListCreation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideMenuButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideNextPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideOptionToSaveAs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePagination": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelAdvanced": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelConditionDelete": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelFooter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelRestore": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePersonalization": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePreviousPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideQuickEdit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRecordCountBadge": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideReferenceLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRefreshButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowsPerPageSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSelectAll": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSharingButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideTabs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "highlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "listId": {
+                                        "binding": {
+                                            "address": [
+                                                "listId"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "listMenuCrud": {
+                                        "binding": {
+                                            "address": [
+                                                "CRUD"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "listMenuOpen": {
+                                        "script": {
+                                            "apiVersion": "2.0.0",
+                                            "controllerElementId": null,
+                                            "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api}) {\n\treturn !api.state.listMenuOpen;\n}",
+                                            "scriptSysId": "a8803d324702b110036bbce5536d4395",
+                                            "target": null
+                                        },
+                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                    },
+                                    "maxCharacters": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 0
+                                    },
+                                    "overrideWordWrapUserPref": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "selectedListId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "targetTable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "tiny": {
+                                        "binding": {
+                                            "address": [
+                                                "tinyId"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "title": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "view": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "wordWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": "left",
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "list_1",
+                                "elementLabel": "List 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "actionConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "allRecordsSelected": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "columns": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "columns"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "daClientActionContract": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "error": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "exceptedRecords": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
+                                        ]
+                                    },
+                                    "fixedQuery": null,
+                                    "groupByField": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "groupByField"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "headerSize": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "headingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 1
+                                    },
+                                    "hideCellFilter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideCheckboxHover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnFiltering": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnGrouping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnReorder": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnResizing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnSorting": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDeclarativeActions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDotwalk": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDragDrop": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideEmptyStateImage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFilterPanel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFirstPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHeader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightedValues": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideInlineEditing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastRefreshedText": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLimitSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListSharing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideMenuButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideNextPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideOptionToSaveAs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePagination": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelAdvanced": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelConditionDelete": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelFooter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelRestore": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePersonalization": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePreviousPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideQuickEdit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRefreshButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSelectAll": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitleRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideUnnecessaryRowSelectors": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "highlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "color": "",
+                                            "patterns": [
+                                                
+                                            ]
+                                        }
+                                    },
+                                    "highlightedValueConfigId": {
+                                        "binding": {
+                                            "address": [
+                                                "highlightedValueConfig"
+                                            ],
+                                            "category": "app"
+                                        },
+                                        "type": "CONTEXT_BINDING"
+                                    },
+                                    "isRefList": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "limit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "listMenuOpen": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "listTitle": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "All Active Tasks"
+                                        }
+                                    },
+                                    "maxCharLimit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 4000
+                                    },
+                                    "maxColumns": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "menuSelection": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "overrideWordWrapUserPref": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "page": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 1
+                                    },
+                                    "query": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "conditions"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "recordSelectedQuery": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedSysId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedTable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedView": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "refreshRequested": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "selectedListId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "selectedRecords": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
+                                        ]
+                                    },
+                                    "table": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "table"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "tiny": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "view": {
+                                        "binding": {
+                                            "address": [
+                                                "list_nav",
+                                                "view"
+                                            ]
+                                        },
+                                        "type": "ELEMENT_BINDING"
+                                    },
+                                    "wordWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": "right",
+                                "styles": null
+                            }
+                        ]
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "actionBar": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "actionBarConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "leftIcon": "record-activity-details-fill",
+                                "leftTooltip": "Display left pane only",
+                                "middleIcon": "record-activity-stream-outline",
+                                "middleTooltip": "Display both panes",
+                                "rightIcon": "record-activity-outline",
+                                "rightTooltip": "Display right pane only"
+                            }
+                        },
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "bottomPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Bottom pane"
+                        },
+                        "bottomPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        },
+                        "defaultDisplayedPane": {
+                            "binding": {
+                                "address": [
+                                    "listDisplayPanes"
+                                ]
+                            },
+                            "type": "STATE_BINDING"
+                        },
+                        "defaultDividerPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": 50
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "displayDividerButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "dividerAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Resizable panes divider"
+                        },
+                        "dividerButtonConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "buttonProps": {
+                                    "icon": "chevron-left-outline"
+                                },
+                                "position": "top"
+                            }
+                        },
+                        "dividerStyles": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "leftPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Left pane"
+                        },
+                        "leftPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        },
+                        "panesPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": "left-right"
+                        },
+                        "rightPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Right pane"
+                        },
+                        "rightPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        },
+                        "topPaneAriaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "Top pane"
+                        },
+                        "topPaneConstraints": {
+                            "type": "JSON_LITERAL",
+                            "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "resizable_panes_1",
+                            "styles": {
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition><da_relay_models/><data>[
+    {
+        "definition": {
+            "id": "367f89e30b102010a8b1c96237673a85",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "dynamic_routing_list",
+        "elementLabel": "Dynamic Routing List",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "routeConfigId": {
+                "binding": {
+                    "address": [
+                        "routeConfigId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "e56aae0873231010a0a79329faf6a768",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "list_navigation_information",
+        "elementLabel": "List Navigation",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "applicationId": {
+                "type": "JSON_LITERAL",
+                "value": "1122346"
+            },
+            "listUrlId": {
+                "binding": {
+                    "address": [
+                        "tinyId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "tinyUrlId": {
+                "binding": {
+                    "address": [
+                        "tinyId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "83114bc453231010c495ddeeff7b12d9",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "getListPreferences",
+        "elementLabel": "Get List Preferences",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "includeRoles": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "preferences": {
+                "binding": {
+                    "address": [
+                        "listPreferences"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "0b84084c536910105a20ddeeff7b124b",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "setListPreference",
+        "elementLabel": "Set List Preference",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "name": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "value": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "53f70741b7a32010415d6c91de11a9c0",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "elementId": "resolve_route_parent_tables",
+        "elementLabel": "Resolve route parent tables",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "navigationPayload",
+                        "fields",
+                        "sysId"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            },
+            "table": {
+                "binding": {
+                    "address": [
+                        "navigationPayload",
+                        "fields",
+                        "table"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "9664d48053461010cbc2ddeeff7b128e",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "get_customer_order_detail",
+        "elementLabel": "Get Customer Order Detail",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "recordId": {
+                "binding": {
+                    "address": [
+                        "customerOrderId"
+                    ]
+                },
+                "type": "STATE_BINDING"
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "order_category,external_system,channel,order_type,account,contact,state"
+            },
+            "returnTableMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sn_ind_tmt_orm_order"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    }
+]</data><description/><dispatched_events>68803d324702b110036bbce5536d4396,a8803d324702b110036bbce5536d4396,e8803d324702b110036bbce5536d4396,2c803d324702b110036bbce5536d4396,6c803d324702b110036bbce5536d4396,ac803d324702b110036bbce5536d4396</dispatched_events><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events>ec803d324702b110036bbce5536d4396,20803d324702b110036bbce5536d4397,60803d324702b110036bbce5536d4397</handled_events><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "rules": {
+                    "grid-area": "main"
+                },
+                "slotName": "Main",
+                "styles": {
+                    "display": "flex",
+                    "flex-direction": "column"
+                }
+            },
+            {
+                "element_id": "container_1",
+                "styles": {
+                    "height": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "grid",
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "grid"
+    },
+    "version": "3.0.0"
+}</layout><macroponent_dependencies/><name>Default</name><output_prop_mapping/><props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "listId",
+        "mandatory": false,
+        "name": "listId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "configId",
+        "mandatory": false,
+        "name": "configId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "tinyId",
+        "mandatory": false,
+        "name": "tinyId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props><required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+} ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_properties>[
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "contents",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "displayOptions",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "name": "bare",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "CRUD",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "name": "listMenuOpen",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "[object Object]"
+        },
+        "name": "tinyId",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "[object Object]"
+        },
+        "name": "listId",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "listRefresh",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": false
+        },
+        "name": "wrapListText",
+        "shape": "",
+        "valueType": "boolean"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "260px"
+        },
+        "name": "listDividerPosition",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "workspace.layout.listMenuRatio"
+        },
+        "name": "listRatioPreference",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "workspace.layout.listMenuOpen"
+        },
+        "name": "listMenuOpenPreference",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "workspace.layout.listMenuRatio,workspace.layout.listMenuOpen"
+        },
+        "name": "listPreferences",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "both"
+        },
+        "name": "listDisplayPanes",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "navigationPayload",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "initialValue": {
+            "binding": {
+                "address": [
+                    "routeParentTables"
+                ],
+                "category": "app"
+            },
+            "type": "CONTEXT_BINDING"
+        },
+        "name": "routeParentTables",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "listContentItems",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "[object Object]"
+        },
+        "name": "customerOrderId",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {}
+        },
+        "name": "newClientStateParam18",
+        "shape": "",
+        "valueType": "json"
+    }
+]</state_properties><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 15:33:19</sys_created_on><sys_id>d3af25b24702b110036bbce5536d43de</sys_id><sys_mod_count>14</sys_mod_count><sys_name>Default</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_macroponent_d3af25b24702b110036bbce5536d43de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 17:23:37</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=d3af25b24702b110036bbce5536d43de"/></record_update>]]></payload>
+        <payload_hash>-660611886</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 17:23:37</sys_created_on>
+        <sys_id>c7e8cef24782b110036bbce5536d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6d0357c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:23:37</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>4fe8cef2c882b110ec3cee7e2020a6b2</update_guid>
+        <update_guid_history>4fe8cef2c882b110ec3cee7e2020a6b2:-660611886,a78886f25282b110d4583e36638f835d:-488779369,9f480eb2fe82b1105ad6b3f14be50941:-1976797161,80284e724582b110388cfc2b3979ba31:-1686120217,ffa70ab28782b1104de12fb21084ab82:-1976797161,1d5702b2d682b11058d1038af3bf2ac9:145155106,84270e724c82b11052f3a0fef1314d7d:1366373940,8755c6feac42b1103bbb16000bfa9736:-438085969,038186ba1442b11074b96ce8276aca8d:-339508113,707f79f6f942b11013b61d609a03671e:-389425147,8c7cf5f25c42b11090458dd86619d664:760904857,bb47393e9302b110f1aacf6fe7cea9db:1396578536,32e2f9b67102b11024e2bd88819ed4cd:1114760662,87d171365202b110223129c3b5259c2e:158389094,5baf25b2f102b110589a89e8547a5adf:1014445570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 17:30:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>0f3ecbb3e9f24bada04601e8d9cb6811</sys_id>
+        <sys_metadata>d3af25b24702b110036bbce5536d43de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_d3af25b24702b110036bbce5536d43de</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_d3af25b24702b110036bbce5536d43de">c7e8cef24782b110036bbce5536d43b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:30:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

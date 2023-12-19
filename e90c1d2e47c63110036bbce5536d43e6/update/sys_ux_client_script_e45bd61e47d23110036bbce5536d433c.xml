@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default interceptor copy">d05b961e47d23110036bbce5536d43eb</macroponent>
+        <name>Set category and orderType on select</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    if (event.elementId == 'new_product_card') {
+        api.setState("category", "product");
+        api.setState("orderType", "add");
+    }
+    /*
+    switch (event.elementId) {
+        case "new_product_card":
+            if (api.state.category == "product" && api.state.orderType == "add") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "product");
+                api.setState("orderType", "add");
+            }
+            break;
+        case "new_service_card":
+            if (api.state.category == "service" && api.state.orderType == "add") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "service");
+                api.setState("orderType", "add");
+            }
+            break;
+        case "change_product_card":
+            if (api.state.category == "product" && api.state.orderType == "change") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "product");
+                api.setState("orderType", "change");
+            }
+            break;
+        case "change_service_card":
+            if (api.state.category == "service" && api.state.orderType == "change") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "service");
+                api.setState("orderType", "change");
+            }
+            break;
+        case "cancel_product_card":
+            if (api.state.category == "product" && api.state.orderType == "disconnect") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "product");
+                api.setState("orderType", "disconnect");
+            }
+            break;
+        case "disconnect_service_card":
+            if (api.state.category == "service" && api.state.orderType == "disconnect") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "service");
+                api.setState("orderType", "disconnect");
+            }
+            break;
+        case "add_order_service_card":
+            if (api.state.category == "service" && api.state.orderType == "add") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "service");
+                api.setState("orderType", "add");
+            }
+            break;
+        case "change_order_service_card":
+            if (api.state.category == "service" && api.state.orderType == "change") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "service");
+                api.setState("orderType", "change");
+            }
+            break;
+        case "disconnect_order_service_card":
+            if (api.state.category == "service" && api.state.orderType == "disconnect") {
+                api.setState("category", "");
+                api.setState("orderType", "");
+            } else {
+                api.setState("category", "service");
+                api.setState("orderType", "disconnect");
+            }
+            break;
+    }*/
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 15:42:44</sys_created_on>
+        <sys_id>e45bd61e47d23110036bbce5536d433c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set category and orderType on select</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_e45bd61e47d23110036bbce5536d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 15:42:44</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

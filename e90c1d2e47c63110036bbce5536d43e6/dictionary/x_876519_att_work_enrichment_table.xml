@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c7d0cc0f47c7b110036bbce5536d43d0" label="Enrichment Table Top Level" max_length="40" name="x_876519_att_work_enrichment_table" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Details" max_length="40" name="details" type="string"/>
+        <element label="Domain Order" max_length="32" name="domain_order" reference="sn_ind_tmt_orm_domain_order" type="reference"/>
+        <element label="Due date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element label="Enrichment Table 2" max_length="32" name="enrichment_table_2" reference="x_876519_att_work_enrichment_table_2" type="reference"/>
+        <element label="Enrichment Table 3" max_length="32" name="enrichment_table_3" reference="x_876519_att_work_enrichment_table_3" type="reference"/>
+        <element label="Enrichment Table 4" max_length="32" name="enrichment_table_4" reference="x_876519_att_work_enrichment_table_4" type="reference"/>
+        <element label="Enrichment Table 5" max_length="32" name="enrichment_table_5" reference="x_876519_att_work_enrichment_table_5" type="reference"/>
+        <element label="Enrichment Table 6" max_length="32" name="enrichment_table_6" reference="x_876519_att_work_enrichment_table_6" type="reference"/>
+        <element label="Enrichment Table 7" max_length="32" name="enrichment_table_7" reference="x_876519_att_work_enrichment_table_7" type="reference"/>
+        <element label="Enrichment Table 8" max_length="32" name="enrichment_table_8" reference="x_876519_att_work_enrichment_table_8" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="domain_order"/>
+        </index>
+        <index name="index3">
+            <element name="enrichment_table_2"/>
+        </index>
+        <index name="index4">
+            <element name="enrichment_table_3"/>
+        </index>
+        <index name="index5">
+            <element name="enrichment_table_4"/>
+        </index>
+        <index name="index6">
+            <element name="enrichment_table_5"/>
+        </index>
+        <index name="index7">
+            <element name="enrichment_table_6"/>
+        </index>
+        <index name="index8">
+            <element name="enrichment_table_7"/>
+        </index>
+        <index name="index9">
+            <element name="enrichment_table_8"/>
+        </index>
+    </element>
+</database>

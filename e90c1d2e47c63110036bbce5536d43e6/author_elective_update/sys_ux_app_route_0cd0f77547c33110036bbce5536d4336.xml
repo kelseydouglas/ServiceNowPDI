@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Contextual Sidebar Page 1</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Default">32c3a7f147833110036bbce5536d43b9</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar_1</parent_macroponent_composition_element_id>
+        <route_type>contextual-sidebar-page-1</route_type>
+        <screen_type display_value="Contextual Sidebar Page 1">44d0f77547c33110036bbce5536d4334</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 15:26:23</sys_created_on>
+        <sys_id>0cd0f77547c33110036bbce5536d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contextual Sidebar Page 1</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_app_route_0cd0f77547c33110036bbce5536d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 15:26:23</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=0cd0f77547c33110036bbce5536d4336"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_app_route_0cd0f77547c33110036bbce5536d4336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><extension_point/><fields/><icon/><name>Contextual Sidebar Page 1</name><optional_parameters/><order>0</order><parent_macroponent display_value="Default">32c3a7f147833110036bbce5536d43b9</parent_macroponent><parent_macroponent_composition_element_id>contextual_sidebar_1</parent_macroponent_composition_element_id><route_type>contextual-sidebar-page-1</route_type><screen_type display_value="Contextual Sidebar Page 1">44d0f77547c33110036bbce5536d4334</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-12 15:26:23</sys_created_on><sys_id>0cd0f77547c33110036bbce5536d4336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Contextual Sidebar Page 1</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_app_route_0cd0f77547c33110036bbce5536d4336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-12 15:26:23</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=0cd0f77547c33110036bbce5536d4336"/></record_update>]]></payload>
+        <payload_hash>1164197266</payload_hash>
+        <record_name>Contextual Sidebar Page 1</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 15:26:23</sys_created_on>
+        <sys_id>ccd0f77547c33110036bbce5536d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5ea2e7c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 15:26:23</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>c0d0f775c3c33110660fcfd0103c0538</update_guid>
+        <update_guid_history>c0d0f775c3c33110660fcfd0103c0538:1164197266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 15:28:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>2103f35ed0ff4f7786aa08a96aa40f11</sys_id>
+        <sys_metadata>0cd0f77547c33110036bbce5536d4336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contextual Sidebar Page 1</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_0cd0f77547c33110036bbce5536d4336</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_0cd0f77547c33110036bbce5536d4336">ccd0f77547c33110036bbce5536d4338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 15:28:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

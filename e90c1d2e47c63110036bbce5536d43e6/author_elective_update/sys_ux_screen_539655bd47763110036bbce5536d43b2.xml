@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Playbook Helper">179655bd47763110036bbce5536d43af</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "blah": {
+        "type": "JSON_LITERAL",
+        "value": "-1"
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "table": {
+        "type": "JSON_LITERAL",
+        "value": "x_876519_att_work_test_playbook_table"
+    }
+}</macroponent_config>
+        <name>Playbook Helper</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Playbook Helper">1f9655bd47763110036bbce5536d43a9</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 17:56:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>539655bd47763110036bbce5536d43b2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Playbook Helper</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_539655bd47763110036bbce5536d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 18:17:18</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=539655bd47763110036bbce5536d43b2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_539655bd47763110036bbce5536d43b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    
+]</event_mappings><macroponent display_value="Playbook Helper">179655bd47763110036bbce5536d43af</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "blah": {
+        "type": "JSON_LITERAL",
+        "value": "-1"
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "table": {
+        "type": "JSON_LITERAL",
+        "value": "x_876519_att_work_test_playbook_table"
+    }
+}</macroponent_config><name>Playbook Helper</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Playbook Helper">1f9655bd47763110036bbce5536d43a9</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 17:56:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>539655bd47763110036bbce5536d43b2</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Playbook Helper</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_539655bd47763110036bbce5536d43b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 18:17:18</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=539655bd47763110036bbce5536d43b2"/></record_update>]]></payload>
+        <payload_hash>-2022621364</payload_hash>
+        <record_name>Playbook Helper</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 18:17:18</sys_created_on>
+        <sys_id>414b9d3547b63110036bbce5536d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1c4cb7720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 18:17:18</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>454b9d35bbb63110851854fadfac658e</update_guid>
+        <update_guid_history>454b9d35bbb63110851854fadfac658e:-2022621364,9809d5711ab63110bd09e25509c8669c:1398094908,14d815311fb6311035d5e2d9cf1e5b0a:975472988,825795bd7b7631108af3b92c02dff5ab:1869913602,091791fda7763110788a72cd143811d3:-1285915812,539659bd2476311074d8aec8ba27030e:-1199638247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>d0672705de3d4fb49f2d007fce52d790</sys_id>
+        <sys_metadata>539655bd47763110036bbce5536d43b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Helper</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_539655bd47763110036bbce5536d43b2</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_539655bd47763110036bbce5536d43b2">414b9d3547b63110036bbce5536d438f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

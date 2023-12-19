@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3a3d3849472ab110036bbce5536d43cd" extends="sn_ind_tmt_orm_enrichment_details" label="Order Enrichment ATT" max_length="40" name="x_876519_att_work_order_enrichment_att" type="collection">
+        <element label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

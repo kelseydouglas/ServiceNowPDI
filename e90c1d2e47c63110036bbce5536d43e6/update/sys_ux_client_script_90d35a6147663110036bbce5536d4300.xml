@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Configure default">57a7066147263110036bbce5536d43a1</macroponent>
+        <name>Set specification tree data</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var specTreeData = api.data.get_optional_specification_hierarchy_db.output;
+    api.setState("specTreeData", specTreeData);
+    var expandedSpecs = [];
+    specTreeData.forEach(function(location, index) {
+        expandedSpecs.push([location.id]);
+        if (location.children.length != 0) {
+            for(var i=0;i<location.children.length;i++)
+                expandedSpecs.push([location.id, location.children[i].id]);
+        }
+    });
+    api.setState("expandedSpecifications", expandedSpecs);
+
+
+    // below code will handle the optionla line item count update as wells as update disableAddLineItem state to show / hide the add line item button
+    var optionalCount = 0;
+    for (var loc = 0; loc < specTreeData.length; loc++) {
+        for (var off = 0; off < specTreeData[loc].children.length; off++) {
+            if(isOptionalLineItem(specTreeData[loc].children[off]))
+                optionalCount ++;
+        }
+    }
+
+    var countMsg = "Order line items" + " (" + optionalCount + ")";
+    api.setState("optionalLineItemCount", countMsg);
+    if (optionalCount) {
+        api.setState("disableAddLineItem", false);
+    } else {
+        api.setState("disableAddLineItem", true);
+    }
+
+    function isOptionalLineItem(node) {
+        if (node.length == 0) {
+            return false;
+        } else {
+            for (var j = 0; j < node.children.length; j++) {
+                if (node.children[j].mandatory == "false") {
+                    return true;
+                }
+                isOptionalLineItem(node.children[j].children);
+            }
+        }
+        return false;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 17:35:25</sys_created_on>
+        <sys_id>90d35a6147663110036bbce5536d4300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set specification tree data</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_90d35a6147663110036bbce5536d4300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:35:25</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Configure default">57a7066147263110036bbce5536d43a1</macroponent>
+        <name>Set state for location and product offering</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        NO_LOCATION,
+        ORDER_TYPE,
+        ORDER_LINE_ITEM_ACTION
+    } = imports["sn_app_orm_wksp.Constants"]();
+    var orderLineItemObj = api.data.get_order_line_item_db.output.data.GlideRecord_Query.sn_ind_tmt_orm_order_line_item._results[0];
+    var location = orderLineItemObj.location;
+    var orderType = orderLineItemObj.order_category.value;
+
+    api.setState("location", {
+        "id": location.value,
+        "label": (location.displayValue == null || location.displayValue == "") ? NO_LOCATION : location.displayValue
+    });
+    if (orderType == ORDER_TYPE.PRODUCT) {
+        var productOffering = orderLineItemObj.product_offering;
+        api.setState("productOffering", {
+            "id": productOffering.value,
+            "label": productOffering.displayValue
+        });
+        var orderLineItemAction = orderLineItemObj.action.value;
+        if (orderLineItemAction == ORDER_LINE_ITEM_ACTION.CHANGE) {
+            var serviceSpec = orderLineItemObj.specification;
+            api.setState("specification", {
+                "id": serviceSpec.value,
+                "label": serviceSpec.displayValue
+            });
+        }
+    }
+
+    if (orderType == ORDER_TYPE.SERVICE) {
+        var serviceSpec = orderLineItemObj.specification;
+        api.setState("specification", {
+            "id": serviceSpec.value,
+            "label": serviceSpec.displayValue
+        });
+    }
+
+    // Get all order line items
+    api.data.get_all_order_line_items.refresh();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 17:35:26</sys_created_on>
+        <sys_id>d8d35a6147663110036bbce5536d4300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set state for location and product offering</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_d8d35a6147663110036bbce5536d4300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:35:26</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_trigger_definition">
+    <sys_pd_trigger_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label>Test Trigger</label>
+        <name>test_trigger</name>
+        <short_description/>
+        <sys_class_name>sys_pd_trigger_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 15:13:41</sys_created_on>
+        <sys_id>eb47709a4743b110036bbce5536d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Trigger</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_pd_trigger_definition_eb47709a4743b110036bbce5536d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 15:13:41</sys_updated_on>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
+    </sys_pd_trigger_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=eb47709a4743b110036bbce5536d4336"/>
+</record_update>

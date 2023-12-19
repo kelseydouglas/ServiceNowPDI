@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Virtual Agent Analytics">c97ec9c1c7131010a86b4d2c95c26023</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Transcript default">9d08b963472a3110036bbce5536d43ef</macroponent>
+        <macroponent_config>{
+    "bare": false,
+    "brandingSettings": "@data.chat_settings.output",
+    "conversationPayload": "@data.fetch_conversational_messages_2.output.conversation",
+    "headerLevel": "1",
+    "interceptNotifications": false,
+    "label": "",
+    "propagateNotifications": false,
+    "scrollable": "y",
+    "timestamp": ""
+}</macroponent_config>
+        <name>Transcript default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Conversations List copy">dff775ef47e63110036bbce5536d43a4</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Transcript">1108f963472a3110036bbce5536d4306</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-22 20:36:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5908f963472a3110036bbce5536d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transcript default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_5908f963472a3110036bbce5536d430a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-22 20:36:37</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=5908f963472a3110036bbce5536d430a"/>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>SET_LOADING_STATE_RELAY_(CREATE_DEFAULT_480541)</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Set loading state Relay (Create default 480541)</label>
+        <props>[
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "Loading",
+        "mandatory": false,
+        "name": "loading",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Loading text",
+        "mandatory": false,
+        "name": "label",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Action button",
+        "mandatory": false,
+        "name": "action",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "Non blocking",
+        "mandatory": false,
+        "name": "nonBlocking",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Action button",
+  "comment" : ""
+}, {
+  "message" : "Loading",
+  "comment" : ""
+}, {
+  "message" : "Loading text",
+  "comment" : ""
+}, {
+  "message" : "Non blocking",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-15 18:09:17</sys_created_on>
+        <sys_id>f9fb059d47223510036bbce5536d43a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set loading state Relay (Create default 480541)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_f9fb059d47223510036bbce5536d43a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-15 18:09:48</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9fb059d47223510036bbce5536d43a9"/>
+</record_update>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8671454e478b3110036bbce5536d4344" sys_domain="global" table="x_876519_sd_voice_customer_facing_details" version="3" view="prd">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>a7c1d3ea470f3110036bbce5536d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.u_details_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>abc1d3ea470f3110036bbce5536d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.u_details_2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>afc1d3ea470f3110036bbce5536d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.item_category</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>a3c1d3ea470f3110036bbce5536d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.item_number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>a7c1d3ea470f3110036bbce5536d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>abc1d3ea470f3110036bbce5536d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.u_assigned_to</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>afc1d3ea470f3110036bbce5536d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.u_log</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>a3c1d3ea470f3110036bbce5536d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd.u_due_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-14 21:06:21</sys_created_on>
+            <sys_id>a7c1d3ea470f3110036bbce5536d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_sd_voice_customer_facing_details" sys_domain="global" view="8a71454e478b3110036bbce5536d433d">8671454e478b3110036bbce5536d4344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-14 21:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_876519_sd_voice_customer_facing_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-12 21:18:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8671454e478b3110036bbce5536d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_876519_sd_voice_customer_facing_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+            <sys_update_name>sys_ui_section_8671454e478b3110036bbce5536d4344</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:18:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="prd" name="prd">8a71454e478b3110036bbce5536d433d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

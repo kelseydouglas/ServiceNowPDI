@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
+    <sysrule_view_workspace action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <default_tab_focus>Details</default_tab_focus>
+        <default_tab_order>true</default_tab_order>
+        <description/>
+        <disable_section_collapse>false</disable_section_collapse>
+        <experience_restricted>true</experience_restricted>
+        <hide_details>true</hide_details>
+        <hide_journal_input_fields>false</hide_journal_input_fields>
+        <hide_section_menu>false</hide_section_menu>
+        <name>Characteristic View Rule</name>
+        <order>0</order>
+        <roles/>
+        <sys_class_name>sysrule_view_workspace</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 01:50:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99e8c71247cfb110036bbce5536d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Characteristic View Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sysrule_view_workspace_99e8c71247cfb110036bbce5536d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 01:50:01</sys_updated_on>
+        <table>sn_ind_tmt_orm_order_characteristic_value</table>
+        <tabs_order>[{"label":"Details","value":"Details"}]</tabs_order>
+        <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
+        <workspace/>
+    </sysrule_view_workspace>
+</record_update>

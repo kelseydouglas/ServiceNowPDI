@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Playbook Page Default">9f888fa447cf7110036bbce5536d4388</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "playbookSysId": {
+        "binding": {
+            "address": [
+                "oliSysId"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "playbookTable": {
+        "binding": {
+            "address": [
+                "table"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "sysId": null
+}</macroponent_config>
+        <name>Playbook Page Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Default">7aa3cd9147223510036bbce5536d432a</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Playbook Page">c7888b2447cf7110036bbce5536d4339</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:18:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db888fa447cf7110036bbce5536d438b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Playbook Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_db888fa447cf7110036bbce5536d438b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:50:28</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=db888fa447cf7110036bbce5536d438b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_db888fa447cf7110036bbce5536d438b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    
+]</event_mappings><macroponent display_value="Playbook Page Default">9f888fa447cf7110036bbce5536d4388</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "playbookSysId": {
+        "binding": {
+            "address": [
+                "oliSysId"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "playbookTable": {
+        "binding": {
+            "address": [
+                "table"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "sysId": null
+}</macroponent_config><name>Playbook Page Default</name><order>0</order><parent_macroponent display_value="Default">7aa3cd9147223510036bbce5536d432a</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Playbook Page">c7888b2447cf7110036bbce5536d4339</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 15:18:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>db888fa447cf7110036bbce5536d438b</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Playbook Page Default</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_db888fa447cf7110036bbce5536d438b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 15:50:28</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=db888fa447cf7110036bbce5536d438b"/></record_update>]]></payload>
+        <payload_hash>-477203152</payload_hash>
+        <record_name>Playbook Page Default</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:50:28</sys_created_on>
+        <sys_id>ceffc7204703b110036bbce5536d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c4a1f84d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:50:28</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>46ffc720bd03b1104a31fbc8a0ce4950</update_guid>
+        <update_guid_history>46ffc720bd03b1104a31fbc8a0ce4950:-477203152,d10dcfa892cf7110f09314ba2c71b478:-1341198626,e08c832c42cf71102aef2d44044411d6:395533864,b9a803e41ccf71102166c66b7b0f5995:217873125,d3888fa41ecf71107aaea53fe3a7ec8d:1703545230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>309e3efe898b4e6e9631059c2d1f7664</sys_id>
+        <sys_metadata>db888fa447cf7110036bbce5536d438b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Page Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_db888fa447cf7110036bbce5536d438b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_db888fa447cf7110036bbce5536d438b">ceffc7204703b110036bbce5536d4350</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

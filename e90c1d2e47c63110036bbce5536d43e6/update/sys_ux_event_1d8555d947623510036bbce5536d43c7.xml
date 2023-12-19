@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>OPEN_OR_CLOSE_MODAL_DIALOG_RELAY_(SELECT_DEFAULT_430854)</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Select default 430854)</label>
+        <props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Modal",
+        "mandatory": false,
+        "name": "modalId",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "Open modal dialog",
+        "mandatory": false,
+        "name": "showModal",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "Display options (advanced)",
+        "mandatory": false,
+        "name": "displayOptions",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "Use bare modal",
+        "mandatory": false,
+        "name": "bare",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Viewport ID",
+        "mandatory": false,
+        "name": "viewportElementId",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Viewport Route",
+        "mandatory": false,
+        "name": "viewportRoute",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "Viewport Fields",
+        "mandatory": false,
+        "name": "viewportFields",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-15 18:43:50</sys_created_on>
+        <sys_id>1d8555d947623510036bbce5536d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open or close modal dialog Relay (Select default 430854)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_1d8555d947623510036bbce5536d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-15 18:43:50</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d8555d947623510036bbce5536d43c7"/>
+</record_update>

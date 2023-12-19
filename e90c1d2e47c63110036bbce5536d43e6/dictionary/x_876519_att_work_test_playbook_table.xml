@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94fcf4f547f23110036bbce5536d4347" label="Test Playbook Table" max_length="40" name="x_876519_att_work_test_playbook_table" type="collection">
+        <element label="Field 1" max_length="40" name="field_1" type="string"/>
+        <element label="Field 2" max_length="40" name="field_2" type="string"/>
+    </element>
+</database>

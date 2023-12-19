@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_876519_att_work.Get Product Order</api_name>
+        <description/>
+        <mutates_server_data>true</mutates_server_data>
+        <name>Get Product Order</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+      "name": "recordSysId",&#13;
+      "label": "record SysId",&#13;
+      "description": "Record ID",&#13;
+      "readOnly": false,&#13;
+      "fieldType": "string",&#13;
+      "mandatory": true,&#13;
+      "defaultValue": ""&#13;
+    }&#13;
+  ]</props>
+        <required_translations>[ {
+  "message" : "Record ID",
+  "comment" : ""
+}, {
+  "message" : "record SysId",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+//gs.info('input : ' + JSON.stringify(input));
+	orderLineItemSysId = input.recordSysId;
+
+	gs.info('orderLineItemSysId :' + orderLineItemSysId);
+
+	var productOrderGr = new GlideRecord('sn_ind_tmt_orm_product_order');
+	productOrderGr.addQuery('order_line_item', orderLineItemSysId);
+	productOrderGr.query();
+
+	if(productOrderGr.next()){
+		//gs.info('productOrderGr.getUniqueValue(); ' + productOrderGr.getUniqueValue());
+		var output = productOrderGr.getUniqueValue();
+	}
+	gs.info('output : ' + output);
+	gs.info('output type: ' + typeof output);
+	return output;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 18:53:06</sys_created_on>
+        <sys_id>428eabf94726b110036bbce5536d4362</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Get Product Order</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_428eabf94726b110036bbce5536d4362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-22 21:27:34</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=428eabf94726b110036bbce5536d4362"/>
+</record_update>

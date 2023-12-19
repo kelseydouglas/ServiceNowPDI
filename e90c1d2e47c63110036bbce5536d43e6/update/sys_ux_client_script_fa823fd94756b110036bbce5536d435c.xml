@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>1a937b1d4756b110036bbce5536d4373</includes>
+        <macroponent display_value="Configure Default">5c57370b470a3110036bbce5536d43e8</macroponent>
+        <name>Set Line Item Action</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    // this method will save the action data. 
+    //After successful form save we will receive Glide Form data broker fetches succeeded (Form)
+    // event then we will call Move active order line item to move the steps
+    // If entered Qty informations are not correct then stop moving and throw error 
+    const {
+        ORDER_ACTION
+    } = imports["sn_app_orm_wksp.Constants"]();
+
+    // If last active location id is present that means last opened form was of location, so we have to save the location information
+    if (api.state.activeLocation.id != null && api.state.activeLocation.id != undefined) {
+        if (api.context.props.sysId != undefined && api.context.props.sysId != "" && api.context.props.sysId != "-1") {
+            var firstName = api.state.firstName == null ? "" : api.state.firstName;
+            var lastName = api.state.lastName == null ? "" : api.state.lastName;
+            var email = api.state.email == null ? "" : api.state.email;
+            var contactNum = api.state.contactNum == null ? "" : api.state.contactNum;
+
+            api.data.create_location_contact_db.execute({
+                "orderSysId": api.context.props.sysId,
+                "locSysId": api.state.activeLocation.id,
+                "contact": {
+                    'firstName': firstName,
+                    'lastName': lastName,
+                    'email': email,
+                    'phone': contactNum
+                }
+            });
+        }
+    } else {
+        // last active records was OLI, so we have to check the quantity and save the form 
+        if (!validateQty()) {
+            return;
+        }
+        // clear existing error messge 
+        api.data.gform.clearMessage();
+        // Always save the form fields when move between line items
+        api.data.gform.save();
+    }
+
+    const actionData = {};
+    switch (event.elementId) {
+        case "oli_content_tree":
+            if (event.payload.item.type == 'location') {
+                // save active location payload and top Order line item under active location to fetch the contact info
+                api.setState("activeLocation", event.payload.item);
+                api.setState("activeLocationOlid", event.payload.item.children[0].id);
+                api.setState("isDeleteDisabled", true);
+                api.data.look_up_records_contact_db.refresh();
+            } else {
+                api.setState("activeLocation", {});
+                api.setState("activeLocationOlid", null);
+                //During Add Product,
+                //disable delete for mandatory line items, enable for optional line items
+                //During Change Product,
+                //enable delete for all line items 
+                if (api.context.props.type === ORDER_ACTION.ADD && event.payload.item.mandatory) {
+                    api.setState("isDeleteDisabled", true);
+                } else {
+                    api.setState("isDeleteDisabled", false);
+                }
+                api.setState("activeLineItem", event.payload.item);
+
+            }
+            actionData.payload = event.payload.item;
+            actionData.elementId = event.elementId;
+            api.setState("lineItemActionData", actionData);
+            break;
+        case "btn_save_oli":
+            break;
+        case "btn_review":
+            break;
+    }
+
+    function validateQty() {
+        if (api.data.gform.nowRecordFormBlob) {
+            var qtyValue = api.data.gform.nowRecordFormBlob.detailsProps.fields.quantity.value;
+            var msg = "";
+            if (qtyValue === "") {
+                msg = 'Quantity cannot be empty.';
+            } else if (Number(qtyValue) === 0) {
+                msg = 'Quantity cannot be 0.';
+            } else {
+                var acLine = api.state.activeLineItem;
+                if (typeof(acLine) !== "undefined" && acLine !== null) {
+                    var minQty = acLine.minQuantity;
+                    var maxQty = acLine.maxQuantity;
+                    if (Number(qtyValue) > Number(maxQty)) {
+                        msg = "Entered quantity exceeds the maximum allowed quantity.";
+                    } else if (Number(qtyValue) < Number(minQty)) {
+                        msg = "Entered quantity is less then the allowed minimum quantity.";
+                    }
+                }
+            }
+
+            if (msg != "") {
+                var alerts = [{
+                    id: "record-alert-1",
+                    status: "critical",
+                    icon: "info-circle-outline",
+                    content: msg,
+                    action: {
+                        type: "dismiss"
+                    }
+                }];
+
+                api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+                    items: alerts
+                });
+                return false;
+            }
+
+            return true;
+
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 19:30:29</sys_created_on>
+        <sys_id>fa823fd94756b110036bbce5536d435c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Line Item Action</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_fa823fd94756b110036bbce5536d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 19:46:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

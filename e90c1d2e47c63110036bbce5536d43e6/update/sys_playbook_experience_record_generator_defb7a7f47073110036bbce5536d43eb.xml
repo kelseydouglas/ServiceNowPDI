@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_record_generator">
+    <sys_playbook_experience_record_generator action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <create_record_activity_name>Record Creation</create_record_activity_name>
+        <create_record_form_view display_value="Default view" name="NULL">Default view</create_record_form_view>
+        <order>0</order>
+        <process_definition display_value="Port Playbook">56bbf6fb47073110036bbce5536d438d</process_definition>
+        <sys_class_name>sys_playbook_experience_record_generator</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 16:43:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>defb7a7f47073110036bbce5536d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_876519_att_work_enrichment_table</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_playbook_experience_record_generator_defb7a7f47073110036bbce5536d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 16:43:56</sys_updated_on>
+        <table>x_876519_att_work_enrichment_table</table>
+        <template_fields/>
+    </sys_playbook_experience_record_generator>
+</record_update>

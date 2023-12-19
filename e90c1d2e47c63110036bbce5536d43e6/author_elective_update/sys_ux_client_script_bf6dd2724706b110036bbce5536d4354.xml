@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default copy">a76d9a324706b110036bbce5536d4357</macroponent>
+        <name>change_service_card/selected</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.state.category == 'product' && api.state.orderType == 'add';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 18:53:14</sys_created_on>
+        <sys_id>bf6dd2724706b110036bbce5536d4354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>change_service_card/selected</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_bf6dd2724706b110036bbce5536d4354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 18:53:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_client_script_bf6dd2724706b110036bbce5536d4354</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default copy"&gt;a76d9a324706b110036bbce5536d4357&lt;/macroponent&gt;&lt;name&gt;change_service_card/selected&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.state.category == 'product' &amp;&amp; api.state.orderType == 'add';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-26 18:53:14&lt;/sys_created_on&gt;&lt;sys_id&gt;bf6dd2724706b110036bbce5536d4354&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;change_service_card/selected&lt;/sys_name&gt;&lt;sys_package display_value="AT&amp;amp;amp;T Workspace" source="x_876519_att_work"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AT&amp;amp;amp;T Workspace"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_bf6dd2724706b110036bbce5536d4354&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-26 18:53:14&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>829609638</payload_hash>
+        <record_name>change_service_card/selected</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 18:53:16</sys_created_on>
+        <sys_id>987d16724706b110036bbce5536d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6d556ae30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 18:53:16</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>107d16721206b110b39191c9ae170d1a</update_guid>
+        <update_guid_history>107d16721206b110b39191c9ae170d1a:829609638,b76dd2720906b110fcc17af8a39ae356:-1565372195</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 19:16:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>01b2805da9f84352b41d3624b3a77ab1</sys_id>
+        <sys_metadata>bf6dd2724706b110036bbce5536d4354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>change_service_card/selected</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_bf6dd2724706b110036bbce5536d4354</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_bf6dd2724706b110036bbce5536d4354">987d16724706b110036bbce5536d431a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 19:16:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

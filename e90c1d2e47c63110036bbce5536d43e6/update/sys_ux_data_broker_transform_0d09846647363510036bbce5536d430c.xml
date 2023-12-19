@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_876519_att_work.Get Characteristics</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get Characteristics</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+      "name": "tableSysId",&#13;
+      "label": "table SysId",&#13;
+      "description": "Table ID",&#13;
+      "readOnly": false,&#13;
+      "fieldType": "string",&#13;
+      "mandatory": true,&#13;
+      "defaultValue": ""&#13;
+    },&#13;
+    {&#13;
+      "name": "recordSysId",&#13;
+      "label": "record SysId",&#13;
+      "description": "Record ID",&#13;
+      "readOnly": false,&#13;
+      "fieldType": "string",&#13;
+      "mandatory": true,&#13;
+      "defaultValue": ""&#13;
+    }&#13;
+  ]</props>
+        <required_translations>[ {
+  "message" : "Record ID",
+  "comment" : ""
+}, {
+  "message" : "Table ID",
+  "comment" : ""
+}, {
+  "message" : "record SysId",
+  "comment" : ""
+}, {
+  "message" : "table SysId",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+	var sysId = input.recordSysId;
+	var table = input.tableSysId;
+
+	var charGr = new GlideRecord(table);
+	charGr.addQuery('sys_id', sysId);
+	charGr.query();
+
+	if (charGr.next()){
+		var output = charGr.sys_id;
+	}
+	return output;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 20:14:08</sys_created_on>
+        <sys_id>0d09846647363510036bbce5536d430c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Characteristics</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_0d09846647363510036bbce5536d430c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 17:10:13</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d09846647363510036bbce5536d430c"/>
+</record_update>

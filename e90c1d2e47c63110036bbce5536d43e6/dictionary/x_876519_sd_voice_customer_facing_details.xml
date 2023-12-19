@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1e83144647f13110036bbce5536d43c9" extends="sn_ind_tmt_orm_enrichment_details" label="Enrichment Records" max_length="40" name="x_876519_sd_voice_customer_facing_details" type="collection">
+        <element choice="3" label="Additional Feature" max_length="40" name="x_876519_att_work_additional_feature" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Feature #1" value="1"/>
+                <element inactive_on_update="false" label="Feature #2" value="2"/>
+                <element inactive_on_update="false" label="Feature #3" value="3"/>
+            </choice>
+        </element>
+        <element label="PRD" max_length="32" name="x_876519_att_work_prd" reference="x_876519_att_work_private_routing_details" type="reference"/>
+        <index name="index">
+            <element name="x_876519_att_work_prd"/>
+        </index>
+    </element>
+</database>

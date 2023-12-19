@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>ROW_CLICKED</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Row clicked</label>
+        <props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Route Type",
+        "mandatory": false,
+        "name": "route",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "Route Fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "Optionals Parameters",
+        "mandatory": false,
+        "name": "params",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "If redirect is true, url will be redirected",
+        "mandatory": false,
+        "name": "redirecy",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "boolean",
+        "interfaceApiName": "",
+        "label": "Load in background",
+        "mandatory": false,
+        "name": "passiveNavigation",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Title",
+        "mandatory": false,
+        "name": "title",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Multi Instance Field",
+        "mandatory": false,
+        "name": "multiInstField",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "External URL Object",
+        "mandatory": false,
+        "name": "external",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "External URL Object",
+  "comment" : ""
+}, {
+  "message" : "If redirect is true, url will be redirected",
+  "comment" : ""
+}, {
+  "message" : "Load in background",
+  "comment" : ""
+}, {
+  "message" : "Multi Instance Field",
+  "comment" : ""
+}, {
+  "message" : "Optionals Parameters",
+  "comment" : ""
+}, {
+  "message" : "Route Fields",
+  "comment" : ""
+}, {
+  "message" : "Route Type",
+  "comment" : ""
+}, {
+  "message" : "Title",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 16:42:13</sys_created_on>
+        <sys_id>a8803d324702b110036bbce5536d4396</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Row clicked</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_a8803d324702b110036bbce5536d4396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 17:18:12</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8803d324702b110036bbce5536d4396"/>
+</record_update>

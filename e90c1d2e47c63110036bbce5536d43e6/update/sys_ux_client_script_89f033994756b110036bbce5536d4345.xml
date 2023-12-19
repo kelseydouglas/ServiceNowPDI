@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Configure Default">5c57370b470a3110036bbce5536d43e8</macroponent>
+        <name>Move Active Order Line Item </name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    // this is call back script which is called once oli form data saved (review, save or tree item click)
+    var lineItem = {};
+    const actionToExecute = api.state.lineItemActionData;
+    switch (actionToExecute.elementId) {
+        case "oli_content_tree":
+            if (actionToExecute.payload.type === "location") {
+                // return if last action was to click on location item
+                return;
+            }
+            lineItem = api.state.orderLineItems.find(li => li.id == actionToExecute.payload.id);
+            // reset lineItemActionData for future callbacks
+            api.setState("lineItemActionData", {});
+            //set active line item
+            api.setState("activeLineItem", lineItem);
+            var selectedItem = findSelectedLineItems(lineItem.id);
+            api.setState("selectedLineItems", [selectedItem]);
+            api.setState("expandedLineItems", getExpandedLineItem(selectedItem.slice(0)));
+            break;
+        case "gform":
+            if (isErrorInLineItems(api.state.treeData)) {
+                api.setState("enableDisableReviewButton", true);
+            } else {
+                api.setState("enableDisableReviewButton", false);
+            }
+            break;
+    }
+
+    function getExpandedLineItem(selectedLineItems) {
+        //If we remove the last element from the array that is going to be the 
+        // expanded item array elemnt, need to check its exist if not add it
+        //check if the last element has child elements, if so dont remove the element since we 
+        //need that element to be added in expanded items list
+        const selectedId = selectedLineItems[selectedLineItems.length - 1];
+        const index = api.state.orderLineItems.findIndex(li => li.id == selectedId);
+        if (index != -1 && api.state.orderLineItems[index].childrenLength == 0) {
+            //if last element doest not have child then remove the last element from the array to get the parent path
+            selectedLineItems.pop();
+        }
+        //get existing expanded line items
+        var expandedLineItems = api.state.expandedLineItems;
+        var subPaths = [];
+        var needToCheckInArray = true;
+        for (var i = 1; i <= selectedLineItems.length; i++) {
+            subPaths = selectedLineItems.slice(0, i);
+            if (needToCheckInArray && checkArrayExistInArray(expandedLineItems, subPaths) == -1) {
+                expandedLineItems.push(subPaths);
+                needToCheckInArray = false;
+            } else if (!needToCheckInArray) {
+                expandedLineItems.push(subPaths);
+            }
+        }
+        return expandedLineItems;
+    }
+
+    function checkArrayExistInArray(arrOfArr, arrItem) {
+        const a = JSON.stringify(arrOfArr);
+        const b = JSON.stringify(arrItem);
+        return a.indexOf(b);
+    }
+
+    function findSelectedLineItems(orderlineId) {
+        const treeData = api.state.treeData;
+        for (var loc = 0; loc < treeData.length; loc++) {
+            var selectedItem = [];
+            selectedItem.push(treeData[loc].id);
+            for (var off = 0; off < treeData[loc].children.length; off++) {
+                if (findSelectedChildren(treeData[loc].children[off], orderlineId, selectedItem)) {
+                    return selectedItem;
+                }
+            }
+        }
+        return [];
+    }
+
+    function findSelectedChildren(node, orderlineId, selectedItem) {
+        // element found add it to selectedItem and return
+        if (node && node.id == orderlineId) {
+            selectedItem.push(node.id);
+            return true;
+        }
+        // element not found add this tree node then go futher for its children
+        selectedItem.push(node.id);
+        for (var j = 0; j < node.children.length; j++) {
+            if (findSelectedChildren(node.children[j], orderlineId, selectedItem)) {
+                return true;
+            }
+        }
+        selectedItem.pop();
+        return false;
+    }
+
+    function isErrorInLineItems(treeData) {
+        for (var loc = 0; loc < treeData.length; loc++) {
+            for (var off = 0; off < treeData[loc].children.length; off++) {
+                if (!verifyChildLineItems(treeData[loc].children[off])) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    function verifyChildLineItems(node) {
+        // if status is busy, return false;
+        if (node.highlightedValueProps && node.highlightedValueProps[0].status == "critical")
+            return false;
+
+        // element not found add this tree node then go futher for its children
+        if (node.children)
+            for (var j = 0; j < node.children.length; j++) {
+                if (!verifyChildLineItems(node.children[j]))
+                    return false;
+            }
+        return true;
+
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 19:23:51</sys_created_on>
+        <sys_id>89f033994756b110036bbce5536d4345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Move Active Order Line Item </sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_89f033994756b110036bbce5536d4345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 19:23:51</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

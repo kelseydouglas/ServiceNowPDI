@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d9e2ec8b47523110036bbce5536d434f" extends="sn_ind_tmt_orm_enrichment_details" label="Additional Order Details #1" max_length="40" name="x_876519_att_work_private_routing_details" type="collection">
+        <element label="Additional Details" max_length="40" name="additional_details" type="string"/>
+        <element choice="3" label="Item Category" max_length="40" name="item_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" value="1"/>
+                <element inactive_on_update="false" label="Choice 2" value="2"/>
+                <element inactive_on_update="false" label="Choice 3" value="3"/>
+                <element inactive_on_update="false" label="Choice 4" value="4"/>
+            </choice>
+        </element>
+        <element label="Item Number" max_length="40" name="item_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

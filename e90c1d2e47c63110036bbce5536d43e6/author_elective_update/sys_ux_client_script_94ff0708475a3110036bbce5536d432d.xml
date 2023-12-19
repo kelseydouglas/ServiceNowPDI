@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Create Default">2ad63bc7470a3110036bbce5536d4385</macroponent>
+        <name>Set Initial Data</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    
+   //Moving To and Fro from pages
+   if(api.state.account.id !== '-1' && api.state.contact.id !== '-1')
+        return;
+
+    //Navigating from Customer Account
+    if (api.context.props.account != undefined && api.context.props.account != "" && api.context.props.account != "-1"){
+        api.setState('contact_query', `account=${api.context.props.account}`);
+        api.data.get_account_info.refresh();
+    }else{
+        //Load All the Accounts
+        api.setState('account_query','');
+    }
+
+    //Navigating from Customer order Record
+    if(api.context.props.sysId != undefined && api.context.props.sysId != "" && api.context.props.sysId != "-1")
+       api.data.get_order_db.refresh();
+    
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 19:46:43</sys_created_on>
+        <sys_id>94ff0708475a3110036bbce5536d432d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Initial Data</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_94ff0708475a3110036bbce5536d432d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 19:46:43</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_client_script_94ff0708475a3110036bbce5536d432d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Create Default"&gt;2ad63bc7470a3110036bbce5536d4385&lt;/macroponent&gt;&lt;name&gt;Set Initial Data&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    
+   //Moving To and Fro from pages
+   if(api.state.account.id !== '-1' &amp;&amp; api.state.contact.id !== '-1')
+        return;
+
+    //Navigating from Customer Account
+    if (api.context.props.account != undefined &amp;&amp; api.context.props.account != "" &amp;&amp; api.context.props.account != "-1"){
+        api.setState('contact_query', `account=${api.context.props.account}`);
+        api.data.get_account_info.refresh();
+    }else{
+        //Load All the Accounts
+        api.setState('account_query','');
+    }
+
+    //Navigating from Customer order Record
+    if(api.context.props.sysId != undefined &amp;&amp; api.context.props.sysId != "" &amp;&amp; api.context.props.sysId != "-1")
+       api.data.get_order_db.refresh();
+    
+    
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-30 19:46:43&lt;/sys_created_on&gt;&lt;sys_id&gt;94ff0708475a3110036bbce5536d432d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Initial Data&lt;/sys_name&gt;&lt;sys_package display_value="AT&amp;amp;amp;T Workspace" source="x_876519_att_work"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AT&amp;amp;amp;T Workspace"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_94ff0708475a3110036bbce5536d432d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-30 19:46:43&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-348959933</payload_hash>
+        <record_name>Set Initial Data</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 19:46:43</sys_created_on>
+        <sys_id>8a001fc4475a3110036bbce5536d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b821fc8ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 19:46:43</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>8e001fc4135a3110b1dc0de098e89900</update_guid>
+        <update_guid_history>8e001fc4135a3110b1dc0de098e89900:-348959933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 20:06:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>003f2fa95b184b908416cd5499743610</sys_id>
+        <sys_metadata>94ff0708475a3110036bbce5536d432d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Initial Data</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_94ff0708475a3110036bbce5536d432d</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_94ff0708475a3110036bbce5536d432d">8a001fc4475a3110036bbce5536d4301</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 20:06:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

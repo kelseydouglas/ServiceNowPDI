@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Creation Default">9c92135a471a3110036bbce5536d433e</macroponent>
+        <name>Create the Order</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+        let date_ob = new Date();
+        // adjust 0 before single digit date
+        let date = ("0" + date_ob.getDate()).slice(-2);
+        // current month
+        let month = ("0" + (date_ob.getMonth() + 1)).slice(-2);
+        // current year
+        let year = date_ob.getFullYear();
+        // current hours
+        let hours = date_ob.getHours();
+        // current minutes
+        let minutes = date_ob.getMinutes();
+        // current seconds
+        let seconds = date_ob.getSeconds();
+        // prints date & time in YYYY-MM-DD HH:MM:SS format
+        var order_date = (year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
+        api.data.create_order.execute({
+            table: 'sn_ind_tmt_orm_order',
+            templateFields: 'account=' + api.state.account.id + '^contact=' + api.state.contact.id + '^' + "order_date=" + order_date + "^order_category=" +api.context.props.category+"^order_type="+api.context.props.type,
+            useSetDisplayValue: null
+        });
+        
+
+
+        //api.setState('orderSysId', api.data.get_order_number_db.output.data.GlideRecord_Query.sn_ind_tmt_orm_order._results._row_data.uniqueValue);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 19:58:16</sys_created_on>
+        <sys_id>09c0e0c147a6b110036bbce5536d43e1</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Create the Order</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_09c0e0c147a6b110036bbce5536d43e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 21:10:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

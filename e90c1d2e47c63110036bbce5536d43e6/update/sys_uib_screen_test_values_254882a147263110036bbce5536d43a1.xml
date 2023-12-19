@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "-1",
+        "inputTable": "sn_ind_tmt_orm_order"
+    },
+    "sysId": "6fed2e3e47263110036bbce5536d430a",
+    "category": "product",
+    "type": "fields",
+    "domainSysId": "55fda2be47263110036bbce5536d43fd",
+    "acount": "0fd0913a732330101aae54453f148b5d",
+    "product": "160e66be47263110036bbce5536d4305",
+    "0c3568c75bee0110d78e9e7fb681c784": {
+        "activityLogs": "",
+        "extraParams": "",
+        "fields": "",
+        "query": null,
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": "",
+        "views": ""
+    },
+    "table": "sn_ind_tmt_orm_order_line_item",
+    "5865e308432021105571609dc7b8f23b": {
+        "table": "task",
+        "listId": "",
+        "filter": "",
+        "columns": "",
+        "view": "",
+        "columnLimit": 0,
+        "rowLimit": 10,
+        "currentPage": 0,
+        "recordCountLimit": null,
+        "parentTable": "",
+        "parentRecordSysId": "",
+        "transformScriptSysId": null
+    }
+}</macroponent_config>
+        <screen display_value="Enrichment default">694882a147263110036bbce5536d439e</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 16:39:47</sys_created_on>
+        <sys_id>254882a147263110036bbce5536d43a1</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_254882a147263110036bbce5536d43a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 15:07:35</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

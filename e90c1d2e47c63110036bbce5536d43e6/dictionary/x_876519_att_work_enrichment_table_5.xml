@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4d47980f474bb110036bbce5536d43be" label="Enrichment Table 5" max_length="40" name="x_876519_att_work_enrichment_table_5" type="collection">
+        <element label="Details #1" max_length="40" name="details_1" type="string"/>
+        <element label="Details #2" max_length="40" name="details_2" type="string"/>
+        <element label="Enrichment Table Top" max_length="32" name="enrichment_table_top" reference="x_876519_att_work_enrichment_table" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="enrichment_table_top"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Story Points By User - New Tab">57470f2447e63110036bbce5536d432d</canvas_page>
+        <name>Story Points By User - New Tab</name>
+        <page display_value="PA Story Points By User - New Tab">5b470f2447e63110036bbce5536d432b</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 18:41:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b470f2447e63110036bbce5536d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Story Points By User - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>pa_tabs_1b470f2447e63110036bbce5536d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 18:41:13</sys_updated_on>
+    </pa_tabs>
+</record_update>

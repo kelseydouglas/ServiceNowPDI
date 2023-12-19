@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="DELETE">
+        <action/>
+        <action_attributes/>
+        <action_name>assign_to_me_att</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>server_script</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description>Assign to me -To hide the action for assigned to me list in SOW landing page</description>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>false</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group display_value="Global Now Actions">24c4ec9453103300099addeeff7b12f6</group>
+        <group_by>true</group_by>
+        <icon/>
+        <label>Assign to me</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>true</record_selection_required>
+        <required_roles name="itil">282bf1fac6112285017366cb5f867469</required_roles>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script><![CDATA[current.assigned_to = gs.getUserID();
+current.update();]]></server_script>
+        <specificity>41</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 18:40:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9580b22a474b3110036bbce5536d43b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>assign_to_me_att</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_9580b22a474b3110036bbce5536d43b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 18:43:43</sys_updated_on>
+        <table>sn_ind_tmt_orm_order_task</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="DELETE" query="documentkey=9580b22a474b3110036bbce5536d43b7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_declarative_action_assignment_9580b22a474b3110036bbce5536d43b7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_declarative_action_assignment"&gt;&lt;sys_declarative_action_assignment action="INSERT_OR_UPDATE"&gt;&lt;action/&gt;&lt;action_attributes/&gt;&lt;action_name&gt;assign_to_me_att&lt;/action_name&gt;&lt;action_payload/&gt;&lt;action_type&gt;type&lt;/action_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;button_type&gt;primary&lt;/button_type&gt;&lt;client_action/&gt;&lt;client_conditions/&gt;&lt;client_conditions_on_fields/&gt;&lt;client_script&gt;&lt;![CDATA[function onClick() { }]]&gt;&lt;/client_script&gt;&lt;confirmation_message/&gt;&lt;confirmation_required&gt;false&lt;/confirmation_required&gt;&lt;create_access&gt;false&lt;/create_access&gt;&lt;declarative_action_render_mode/&gt;&lt;declarative_action_type&gt;server_script&lt;/declarative_action_type&gt;&lt;delete_access&gt;false&lt;/delete_access&gt;&lt;dependency/&gt;&lt;description&gt;Assign to me -To hide the action for assigned to me list in SOW landing page&lt;/description&gt;&lt;design_icon/&gt;&lt;dynamic_record_condition/&gt;&lt;dynamic_script_condition/&gt;&lt;enable_dynamic_evaluation&gt;false&lt;/enable_dynamic_evaluation&gt;&lt;enable_for_all_experiences&gt;false&lt;/enable_for_all_experiences&gt;&lt;enabled&gt;false&lt;/enabled&gt;&lt;experience_restricted&gt;false&lt;/experience_restricted&gt;&lt;field_name/&gt;&lt;field_type&gt;glide_date&lt;/field_type&gt;&lt;form_fields_required&gt;false&lt;/form_fields_required&gt;&lt;form_position/&gt;&lt;group display_value="Global Now Actions"&gt;24c4ec9453103300099addeeff7b12f6&lt;/group&gt;&lt;group_by&gt;true&lt;/group_by&gt;&lt;icon/&gt;&lt;label&gt;Assign to me&lt;/label&gt;&lt;model display_value="List"&gt;c3547169534723003eddddeeff7b126c&lt;/model&gt;&lt;model_conditions/&gt;&lt;model_field_required/&gt;&lt;order&gt;0&lt;/order&gt;&lt;payload_map/&gt;&lt;read_access&gt;false&lt;/read_access&gt;&lt;record_conditions/&gt;&lt;record_selection_required&gt;true&lt;/record_selection_required&gt;&lt;required_roles name="itil"&gt;282bf1fac6112285017366cb5f867469&lt;/required_roles&gt;&lt;required_user_role_names/&gt;&lt;requires_value&gt;false&lt;/requires_value&gt;&lt;script_condition/&gt;&lt;scripted_client_condition/&gt;&lt;server_script&gt;&lt;![CDATA[current.assigned_to = gs.getUserID();
+current.update();]]&gt;&lt;/server_script&gt;&lt;specificity&gt;41&lt;/specificity&gt;&lt;sys_class_name&gt;sys_declarative_action_assignment&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-14 18:40:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9580b22a474b3110036bbce5536d43b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;assign_to_me_att&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AT&amp;amp;amp;T Workspace" source="x_876519_att_work"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AT&amp;amp;amp;T Workspace"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_declarative_action_assignment_9580b22a474b3110036bbce5536d43b7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-14 18:43:43&lt;/sys_updated_on&gt;&lt;table&gt;sn_ind_tmt_orm_order_task&lt;/table&gt;&lt;tooltip/&gt;&lt;ui_component/&gt;&lt;view/&gt;&lt;workspace/&gt;&lt;write_access&gt;false&lt;/write_access&gt;&lt;/sys_declarative_action_assignment&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9580b22a474b3110036bbce5536d43b7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-109860113</payload_hash>
+        <record_name>assign_to_me_att</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 18:43:44</sys_created_on>
+        <sys_id>1e217aea474b3110036bbce5536d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c69a44b3a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 18:43:44</sys_updated_on>
+        <type>Action Assignment</type>
+        <update_guid>92217aea674b3110934822fb7f268b1c</update_guid>
+        <update_guid_history>92217aea674b3110934822fb7f268b1c:-109860113,40b0722a664b31108c24335dbd5978a6:-1521449683,5180b22a844b31102c184254c5b56fba:-958403197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 18:45:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_assignment">sys_declarative_action_assignment</sys_db_object>
+        <sys_id>9386922ec5694d48a5d1bdb022277410</sys_id>
+        <sys_metadata>9580b22a474b3110036bbce5536d43b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assign_to_me_att</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_assignment_9580b22a474b3110036bbce5536d43b7</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_assignment_9580b22a474b3110036bbce5536d43b7">1e217aea474b3110036bbce5536d431c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 18:45:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

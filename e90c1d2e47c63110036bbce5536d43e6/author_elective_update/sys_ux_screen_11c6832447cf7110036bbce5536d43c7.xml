@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Playbook Page Default">9f888fa447cf7110036bbce5536d4388</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "playbookSysId": {
+        "binding": {
+            "address": [
+                "sysId"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "playbookTable": {
+        "binding": {
+            "address": [
+                "table"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "sysId": null
+}</macroponent_config>
+        <name>Playbook Tab</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page Tabs">a04c00820f901010a326b6ade7767ef9</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Playbook Tab ">7ed5cfa047cf7110036bbce5536d4317</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:11:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11c6832447cf7110036bbce5536d43c7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Playbook Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_11c6832447cf7110036bbce5536d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:15:13</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=11c6832447cf7110036bbce5536d43c7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_11c6832447cf7110036bbce5536d43c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Playbook Page Default">9f888fa447cf7110036bbce5536d4388</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "playbookSysId": {
+        "binding": {
+            "address": [
+                "sysId"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "playbookTable": {
+        "binding": {
+            "address": [
+                "table"
+            ],
+            "category": "props"
+        },
+        "type": "CONTEXT_BINDING"
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "sysId": null
+}</macroponent_config><name>Playbook Tab</name><order>0</order><parent_macroponent display_value="Record Page Tabs">a04c00820f901010a326b6ade7767ef9</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Playbook Tab ">7ed5cfa047cf7110036bbce5536d4317</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 15:11:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>11c6832447cf7110036bbce5536d43c7</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Playbook Tab</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_11c6832447cf7110036bbce5536d43c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 16:15:13</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=11c6832447cf7110036bbce5536d43c7"/></record_update>]]></payload>
+        <payload_hash>1447514197</payload_hash>
+        <record_name>Playbook Tab</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:15:13</sys_created_on>
+        <sys_id>a4a5dbe44703b110036bbce5536d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c4a362cac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:15:13</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>2ca5dbe44203b110bc669ef19ad4ebb9</update_guid>
+        <update_guid_history>2ca5dbe44203b110bc669ef19ad4ebb9:1447514197,7c85dba4e103b110277e9ddd69a53c27:1317499700,436597645403b110351ef28da6c1d411:550449206,5403d364f103b110d84dddbf308943d5:1317499700,a3029b24e203b110fc1f0e6696bfc8dc:1447514197,e68fcbec21cf71109a260e23f184154d:691936176,2699c3e4fbcf7110ccd04550b3fb97e6:-75114318,bef8cfa4dfcf711066e2f51d7f1cd83b:-1139320139,dbf68b246dcf711098f6bd0df892bc49:-100758374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>144553b7ec464b96930a325f18859944</sys_id>
+        <sys_metadata>11c6832447cf7110036bbce5536d43c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Tab</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_11c6832447cf7110036bbce5536d43c7</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_11c6832447cf7110036bbce5536d43c7">a4a5dbe44703b110036bbce5536d43ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

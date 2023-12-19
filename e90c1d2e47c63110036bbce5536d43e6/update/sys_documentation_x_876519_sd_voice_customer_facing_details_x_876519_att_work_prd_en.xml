@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_876519_att_work_prd" label="PRD" language="en" table="x_876519_sd_voice_customer_facing_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_876519_att_work_prd</element>
+            <help/>
+            <hint/>
+            <label>PRD</label>
+            <language>en</language>
+            <name>x_876519_sd_voice_customer_facing_details</name>
+            <plural>PRDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-27 19:58:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PRD</sys_name>
+            <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+            <sys_update_name>sys_documentation_x_876519_sd_voice_customer_facing_details_x_876519_att_work_prd_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-27 19:58:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

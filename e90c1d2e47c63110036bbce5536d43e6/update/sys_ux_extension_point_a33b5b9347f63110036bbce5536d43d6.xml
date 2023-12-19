@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_extension_point">
+    <sys_ux_extension_point action="INSERT_OR_UPDATE">
+        <app_shell display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</app_shell>
+        <component display_value="Default">980f835347b63110036bbce5536d43f5</component>
+        <controller display_value="List Controller">5865e308432021105571609dc7b8f23b</controller>
+        <controller_dependencies/>
+        <description/>
+        <name>Related List Collection</name>
+        <sys_class_name>sys_ux_extension_point</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-04 19:30:10</sys_created_on>
+        <sys_id>a33b5b9347f63110036bbce5536d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related List Collection</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_extension_point_a33b5b9347f63110036bbce5536d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-04 19:30:10</sys_updated_on>
+        <type/>
+    </sys_ux_extension_point>
+    <sys_translated_text action="delete_multiple" query="documentkey=a33b5b9347f63110036bbce5536d43d6"/>
+</record_update>

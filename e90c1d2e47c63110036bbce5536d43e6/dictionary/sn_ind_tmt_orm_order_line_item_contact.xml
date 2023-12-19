@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8360ee62472b2110036bbce5536d4370" label="Order Line Item Contact" max_length="40" name="sn_ind_tmt_orm_order_line_item_contact" type="collection">
+        <element label="Test" max_length="40" name="x_876519_att_work_test" type="string"/>
+    </element>
+</database>

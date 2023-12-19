@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <api_name>x_876519_att_work.orderCreationUtilsATT</api_name>
+        <includes/>
+        <name>orderCreationUtilsATT</name>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function include() {
+
+    var lineItems = [];
+    var expandedLineItems = [];
+    var selectedLineItems = [];
+    var activeLineItem = {};
+
+    const getStepperData = (data, activeStepIndex) => {
+        for (let i = 0; i < data.length; i++) {
+            if (activeStepIndex == i) {
+                data[i].progress = "partial";
+                data[i].disabled = false;
+            } else if (activeStepIndex < i) {
+                data[i].progress = "none";
+                data[i].disabled = true;
+            } else {
+                data[i].progress = "done";
+                data[i].disabled = false;
+            }
+        }
+        return data;
+    };
+
+    const setStepperDataFromRoute = (api, route) => {
+        if (route != undefined) {
+            var index = 0;
+            switch (route) {
+                case "create":
+                    break;
+                case "select":
+                    index = 1;
+                    break;
+               case "invt_select":
+                    index = 1;
+                    break;
+                case "configure":
+                    index = 2;
+                    break;
+                case "review":
+                    if(api.context.props.type == 'disconnect') {
+                        index = 2;
+                    } else {
+                        index = 3;
+                    }
+                    break;
+            }
+            const newStepperData = getStepperData(api.state.stepperData, index);
+            api.setState("stepperData", newStepperData);
+            api.setState("activeStepId", newStepperData[index].id);
+        }        
+    };
+
+    const getFlatternLineItemsAndTreeData = (treeData, activeOLI) => {
+        lineItems = [];
+        expandedLineItems = [];
+        selectedLineItems = [];
+        activeLineItem = {};
+
+        if (typeof (treeData) !== "undefined" && treeData !== null) {
+            treeData.forEach(function (location, index) {
+                if (index == 0) {
+                    expandedLineItems.push([location.id]);
+                    if (location.children.length != 0) {
+                        selectedLineItems.push([location.id, location.children[0].id]);
+                        expandedLineItems.push([location.id, location.children[0].id]);
+                    }
+                }
+                _flatternChildrens(location, false);
+            });
+
+            /*set active line item in response */
+            var index = 0;
+            if (activeOLI && Object.keys(activeOLI).length !== 0) {
+                var index = lineItems.findIndex(x => x.id === activeOLI.id);
+                index = (index != -1) ? index : 0;
+            }
+            activeLineItem = lineItems[index];
+        }
+
+        return {
+            lineItems,
+            expandedLineItems,
+            selectedLineItems,
+            activeLineItem
+        }
+    };
+
+    const _flatternChildrens = (node, addToExpand) => {
+        node.children.forEach(childNode => {
+            if (childNode && childNode.type === "oli") {
+                lineItems.push({
+                    id: childNode.id,
+                    label: childNode.label,
+                    childrenLength: childNode.children ? childNode.children.length : 0,
+                    status: childNode.highlightedValueProps ? childNode.highlightedValueProps[0].status : undefined,
+                    mandatory: childNode.mandatory,
+                    minQuantity: childNode.minQuantity,
+                    maxQuantity: childNode.maxQuantity,
+                });
+            }
+            if (addToExpand) {
+                expandedLineItems.push([node.id, childNode.id]);
+            }
+            if (childNode.children.length != 0)
+                _flatternChildrens(childNode, false);
+        });
+    };
+
+    return ({
+        getStepperData,
+        getFlatternLineItemsAndTreeData,
+        setStepperDataFromRoute
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 19:50:31</sys_created_on>
+        <sys_id>2e27bf914796b110036bbce5536d43ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>orderCreationUtilsATT</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_2e27bf914796b110036bbce5536d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 19:50:31</sys_updated_on>
+    </sys_ux_client_script_include>
+</record_update>

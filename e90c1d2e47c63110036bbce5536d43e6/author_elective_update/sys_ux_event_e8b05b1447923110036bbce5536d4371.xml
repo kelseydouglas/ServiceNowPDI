@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>SN_NAVIGATE_TO_STEP_RELAY_e8b05b1447923110036bbce5536d4371</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>SN_NAVIGATE_TO_STEP Relay (Select default ATT)</label>
+        <props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Route",
+        "name": "route"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "fields",
+        "name": "fields"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Route",
+  "comment" : ""
+}, {
+  "message" : "fields",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 14:28:45</sys_created_on>
+        <sys_id>e8b05b1447923110036bbce5536d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN_NAVIGATE_TO_STEP Relay (Select default ATT)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_event_e8b05b1447923110036bbce5536d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 14:28:45</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=e8b05b1447923110036bbce5536d4371"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_event_e8b05b1447923110036bbce5536d4371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>SN_NAVIGATE_TO_STEP_RELAY_e8b05b1447923110036bbce5536d4371</event_name><explicit_api_name/><interfaces/><label>SN_NAVIGATE_TO_STEP Relay (Select default ATT)</label><props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "Route",
+        "name": "route"
+    },
+    {
+        "fieldType": "json",
+        "interfaceApiName": "",
+        "label": "fields",
+        "name": "fields"
+    }
+]</props><required_translations>[ {
+  "message" : "Route",
+  "comment" : ""
+}, {
+  "message" : "fields",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-31 14:28:45</sys_created_on><sys_id>e8b05b1447923110036bbce5536d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SN_NAVIGATE_TO_STEP Relay (Select default ATT)</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_event_e8b05b1447923110036bbce5536d4371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-31 14:28:45</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=e8b05b1447923110036bbce5536d4371"/></record_update>]]></payload>
+        <payload_hash>-2005664591</payload_hash>
+        <record_name>SN_NAVIGATE_TO_STEP Relay (Select default ATT)</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 14:28:45</sys_created_on>
+        <sys_id>56d0d7d047923110036bbce5536d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b86230cf20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 14:28:45</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>5ad0d7d037923110d3692b11e3a35c7e</update_guid>
+        <update_guid_history>5ad0d7d037923110d3692b11e3a35c7e:-2005664591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 14:29:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>40183288883e4900a70030c5d3424000</sys_id>
+        <sys_metadata>e8b05b1447923110036bbce5536d4371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN_NAVIGATE_TO_STEP Relay (Select default ATT)</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_event_e8b05b1447923110036bbce5536d4371</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_e8b05b1447923110036bbce5536d4371">56d0d7d047923110036bbce5536d437f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 14:29:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

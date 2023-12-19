@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "cloegchheraaffddjddffhhrabggtzghii",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_17a5db00479a3110036bbce5536d43f5",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_17a5db00479a3110036bbce5536d43f5",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP",
+                    "payload": {
+                        "container": {
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "34529f9447923110036bbce5536d433b"
+                },
+                "operation": null,
+                "targetId": "cloegchheqaaffddiddffhhrbvkwbijd",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "clofwpfaaaaaaddjjddddffhhqivsroyiicc",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_app_orm_wksp.NAV_ITEM_SELECTED_RELAY_9ecbe909eb0101109e8de88b035228b9",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "sn_app_orm_wksp.NAV_ITEM_SELECTED_RELAY_9ecbe909eb0101109e8de88b035228b9",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "type": "JSON_LITERAL",
+                        "value": {
+                            "external": null,
+                            "fields": null,
+                            "multiInstField": null,
+                            "navigationOptions": null,
+                            "params": null,
+                            "passiveNavigation": null,
+                            "redirect": null,
+                            "route": null,
+                            "targetRoute": null,
+                            "title": null
+                        }
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "clofwpfaaaaaaddjjeeddffhhqzdvabbtgf",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "clofwquffgaaddjjlddffhhqysjjabbbbjgg",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_1bf15f5447923110036bbce5536d430a",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_1bf15f5447923110036bbce5536d430a",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP",
+                    "payload": {
+                        "container": {
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "34529f9447923110036bbce5536d433b"
+                },
+                "operation": null,
+                "targetId": "clofwquffhaaddjjmddffhhqzihhhhrcyg",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings>
+        <macroponent display_value="Create default">17a5db00479a3110036bbce5536d43f5</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Create default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Default">60d6638347c63110036bbce5536d43a4</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Create">5fa5d3cc475a3110036bbce5536d4398</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 20:11:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53a5db00479a3110036bbce5536d43f8</sys_id>
+        <sys_mod_count>74</sys_mod_count>
+        <sys_name>Create default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_53a5db00479a3110036bbce5536d43f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 19:01:06</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=53a5db00479a3110036bbce5536d43f8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_53a5db00479a3110036bbce5536d43f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    {
+        "eventMappingId": "cloegchheraaffddjddffhhrabggtzghii",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_17a5db00479a3110036bbce5536d43f5",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_17a5db00479a3110036bbce5536d43f5",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP",
+                    "payload": {
+                        "container": {
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "34529f9447923110036bbce5536d433b"
+                },
+                "operation": null,
+                "targetId": "cloegchheqaaffddiddffhhrbvkwbijd",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "clofwpfaaaaaaddjjddddffhhqivsroyiicc",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_app_orm_wksp.NAV_ITEM_SELECTED_RELAY_9ecbe909eb0101109e8de88b035228b9",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "sn_app_orm_wksp.NAV_ITEM_SELECTED_RELAY_9ecbe909eb0101109e8de88b035228b9",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "type": "JSON_LITERAL",
+                        "value": {
+                            "external": null,
+                            "fields": null,
+                            "multiInstField": null,
+                            "navigationOptions": null,
+                            "params": null,
+                            "passiveNavigation": null,
+                            "redirect": null,
+                            "route": null,
+                            "targetRoute": null,
+                            "title": null
+                        }
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "clofwpfaaaaaaddjjeeddffhhqzdvabbtgf",
+                "type": "EVENT"
+            }
+        ]
+    },
+    {
+        "eventMappingId": "clofwquffgaaddjjlddffhhqysjjabbbbjgg",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_1bf15f5447923110036bbce5536d430a",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP_RELAY_1bf15f5447923110036bbce5536d430a",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "x_876519_att_work.SN_NAVIGATE_TO_STEP",
+                    "payload": {
+                        "container": {
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "34529f9447923110036bbce5536d433b"
+                },
+                "operation": null,
+                "targetId": "clofwquffhaaddjjmddffhhqzihhhhrcyg",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings><macroponent display_value="Create default">17a5db00479a3110036bbce5536d43f5</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Create default</name><order>0</order><parent_macroponent display_value="Default">60d6638347c63110036bbce5536d43a4</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Create">5fa5d3cc475a3110036bbce5536d4398</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-30 20:11:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>53a5db00479a3110036bbce5536d43f8</sys_id><sys_mod_count>74</sys_mod_count><sys_name>Create default</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_53a5db00479a3110036bbce5536d43f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-06 19:01:06</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=53a5db00479a3110036bbce5536d43f8"/></record_update>]]></payload>
+        <payload_hash>2102723879</payload_hash>
+        <record_name>Create default</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 19:01:06</sys_created_on>
+        <sys_id>deb80fda47d63110036bbce5536d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba6028bb60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 19:01:06</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>56b80fda88d631109b14b3f7448d2011</update_guid>
+        <update_guid_history>56b80fda88d631109b14b3f7448d2011:2102723879,e4faf8388c92b1109f3823937cdd929b:1745058896,855a2c301452b110591a75697f29503e:438600374,35672c3cbb12b11043bfbb3a62fa4601:2102723879,3a07a8b86412b110dbe27f87b922231e:-1587786363,f5379f5cd99231100f27006ba6125b11:1807683741,68095f04b69a311041d777581ead94e2:-423629500,0dc51f00109a31104cdb0fae7a8a4c01:1039518495,9fa5db00979a3110affc7096910742f9:-1408948921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 20:40:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>66dd69e1a6804b1699f4a90518132544</sys_id>
+        <sys_metadata>53a5db00479a3110036bbce5536d43f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_53a5db00479a3110036bbce5536d43f8</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_53a5db00479a3110036bbce5536d43f8">deb80fda47d63110036bbce5536d4311</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 20:40:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

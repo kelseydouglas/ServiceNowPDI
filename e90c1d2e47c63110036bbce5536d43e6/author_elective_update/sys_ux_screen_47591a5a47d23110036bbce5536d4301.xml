@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Interceptor">4f59d65a47d23110036bbce5536d43fe</macroponent>
+        <macroponent_config/>
+        <name>Interceptor</name>
+        <order>0</order>
+        <parent_macroponent display_value="Home">12d8121a47d23110036bbce5536d43f0</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Interceptor">03591e1a47d23110036bbce5536d43fe</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 15:34:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47591a5a47d23110036bbce5536d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interceptor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_47591a5a47d23110036bbce5536d4301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 15:34:10</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=47591a5a47d23110036bbce5536d4301"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_47591a5a47d23110036bbce5536d4301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Interceptor">4f59d65a47d23110036bbce5536d43fe</macroponent><macroponent_config/><name>Interceptor</name><order>0</order><parent_macroponent display_value="Home">12d8121a47d23110036bbce5536d43f0</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Interceptor">03591e1a47d23110036bbce5536d43fe</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-06 15:34:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>47591a5a47d23110036bbce5536d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Interceptor</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_47591a5a47d23110036bbce5536d4301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-06 15:34:10</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=47591a5a47d23110036bbce5536d4301"/></record_update>]]></payload>
+        <payload_hash>-1261056091</payload_hash>
+        <record_name>Interceptor</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 15:34:10</sys_created_on>
+        <sys_id>8b591a5a47d23110036bbce5536d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba545170a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 15:34:10</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>8f591a5ad0d231101dd2d45ee5af8002</update_guid>
+        <update_guid_history>8f591a5ad0d231101dd2d45ee5af8002:-1261056091</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 16:38:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>60cc796fd5dc4602b64cd73201da9304</sys_id>
+        <sys_metadata>47591a5a47d23110036bbce5536d4301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interceptor</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_47591a5a47d23110036bbce5536d4301</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_47591a5a47d23110036bbce5536d4301">8b591a5a47d23110036bbce5536d4303</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 16:38:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

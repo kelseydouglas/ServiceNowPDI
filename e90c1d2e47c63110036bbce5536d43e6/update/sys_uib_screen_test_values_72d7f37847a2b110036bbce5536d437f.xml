@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "ae96d73de865211076da10591ad2871d",
+        "inputTable": "task",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
+    }
+}</macroponent_config>
+        <screen display_value="Default">72d7f37847a2b110036bbce5536d437c</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 16:51:51</sys_created_on>
+        <sys_id>72d7f37847a2b110036bbce5536d437f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_72d7f37847a2b110036bbce5536d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 16:55:13</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

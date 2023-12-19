@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Configure Default">5c57370b470a3110036bbce5536d43e8</macroponent>
+        <name>Change Order State</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+   var orderState =  api.data.look_up_order_state.result.state;
+console.log('order state 1: ' + JSON.stringify(orderState));
+ /*  if (orderState == 'draft') {
+         orderState = {"state": {
+            "value": "acknowledged",
+            "displayValue": "Acknowledged"
+         }
+  }
+   if (orderState == 'acknowledged') {
+         orderState = {"state": {
+            "value": "in progress",
+            "displayValue": "In Progress"
+         }
+  }
+
+   console.log('order state 2: ' + JSON.stringify(orderState));
+*/]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-08 16:36:28</sys_created_on>
+        <sys_id>3e9730c747d23110036bbce5536d43f6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Change Order State</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_3e9730c747d23110036bbce5536d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-08 17:24:06</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

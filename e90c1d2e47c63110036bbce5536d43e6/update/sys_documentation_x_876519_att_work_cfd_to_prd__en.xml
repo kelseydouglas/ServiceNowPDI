@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Att work cfd to prd" language="en" table="x_876519_att_work_cfd_to_prd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Att work cfd to prd</label>
+            <language>en</language>
+            <name>x_876519_att_work_cfd_to_prd</name>
+            <plural>Att work cfd to prds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-27 19:10:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Att work cfd to prd</sys_name>
+            <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+            <sys_update_name>sys_documentation_x_876519_att_work_cfd_to_prd__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-27 19:10:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

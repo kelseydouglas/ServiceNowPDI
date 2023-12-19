@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Configure default">57a7066147263110036bbce5536d43a1</macroponent>
+        <name>Open close copy configuration modal</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        NO_LOCATION,
+        ORDER_TYPE,
+        ORDER_ACTION
+    } = imports["sn_app_orm_wksp.Constants"]();
+
+    if (event.elementId == "copy_and_paste_selected_order_line_item_configurations") {
+        api.data.get_order_line_item_tree_data.refresh();
+        helpers.modal.close("copy_configuration", {
+            "bare": true
+        });
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+            items: [{
+                id: 'id1',
+                status: 'positive',
+                icon: 'circle-check-outline',
+                content: 'You have successfully copied configurations',
+                action: {
+                    type: 'dismiss'
+                }
+            }]
+        });
+    } else {
+        api.setState('selectedLocations', []);
+        var locations = getLocationsForCopyConfig();
+        api.setState('locationDropDown', locations);
+        helpers.modal.open("copy_configuration", {
+            "bare": true
+        });
+    }
+
+    function getLocationsForCopyConfig() {
+        if (api.data.get_all_order_line_items.output) {
+            var orderItems = api.data.get_all_order_line_items.output.data.GlideRecord_Query.sn_ind_tmt_orm_order_line_item._results;
+            var allItemLocations = [];
+            var locations = [];
+
+            for (var i = 0; i < orderItems.length; i++) {
+                if (!locations.includes(orderItems[i].location.value)) {
+                    //For new product orders, filter location based on offering else filter locations based on specification
+                    if (api.context.props.type == ORDER_ACTION.ADD && api.context.props.category == ORDER_TYPE.PRODUCT) {
+                        if (api.state.productOffering.id == orderItems[i].product_offering.value) {
+                            locations.push(orderItems[i].location.value);
+                            allItemLocations.push({
+                                id: orderItems[i].location.value,
+                                label: (orderItems[i].location.displayValue == null || orderItems[i].location.displayValue == "") ? NO_LOCATION : orderItems[i].location.displayValue
+                            });
+                        }
+                    } else if (api.state.specification.id == orderItems[i].specification.value) {
+                        locations.push(orderItems[i].location.value);
+                        allItemLocations.push({
+                            id: orderItems[i].location.value,
+                            label: (orderItems[i].location.displayValue == null || orderItems[i].location.displayValue == "") ? NO_LOCATION : orderItems[i].location.displayValue
+                        });
+                    }
+                }
+            }
+            return allItemLocations;
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 17:35:25</sys_created_on>
+        <sys_id>d0d35a6147663110036bbce5536d4300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open close copy configuration modal</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_d0d35a6147663110036bbce5536d4300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 17:35:25</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Story Points By User - New Tab">57470f2447e63110036bbce5536d432d</grid_canvas>
+        <height>16</height>
+        <portal_widget display_value="Created 2023-11-13 10:41:21">1d574f2447e63110036bbce5536d4399</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 18:41:21</sys_created_on>
+        <sys_id>19578f2447e63110036bbce5536d43ba</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>57470f2447e63110036bbce5536d432d</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_19578f2447e63110036bbce5536d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-20 14:39:06</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

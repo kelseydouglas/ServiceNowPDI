@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_1",
+        "useByReference": false
+    }
+]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_1",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport",
+        "elementLabel": "Modal Container (Viewport)",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "b324da974cef96f2db1d484cfeda4e3e",
+                        "type": "MACROPONENT_VIEWPORT"
+                    },
+                    "elementId": "tabs_1",
+                    "elementLabel": "Tabs 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "extensionPoints": [
+                        {
+                            "controllerDependencyMap": null,
+                            "controllerElementId": "record",
+                            "name": "CSM default record post-related lists",
+                            "sysId": "ca1de18461011110fa9ba6da704974a6"
+                        },
+                        {
+                            "controllerDependencyMap": null,
+                            "controllerElementId": "record",
+                            "name": "CSM default record post-Details",
+                            "sysId": "06ece18461011110fa9ba6da704974b3"
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "items": [
+                        {
+                            "icon": "",
+                            "id": "clpljlk6a0isd357po7eezw93",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Order Details"
+                                }
+                            },
+                            "order": 0,
+                            "type": "local"
+                        },
+                        {
+                            "icon": null,
+                            "id": "clq2lwn8c01aq357pzyzxu0a8",
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Related Records"
+                                }
+                            },
+                            "order": 400,
+                            "type": "template"
+                        },
+                        {
+                            "extensionPoint": "ca1de18461011110fa9ba6da704974a6",
+                            "icon": null,
+                            "id": "clq2lxy3f01bg357pvaphw5aj",
+                            "label": {
+                                "type": "JSON_LITERAL",
+                                "value": "CSM default record post-related lists"
+                            },
+                            "order": 500,
+                            "type": "extension_point"
+                        },
+                        {
+                            "extensionPoint": "06ece18461011110fa9ba6da704974b3",
+                            "icon": null,
+                            "id": "clq2m90m001hy357ps18ftwsb",
+                            "label": {
+                                "type": "JSON_LITERAL",
+                                "value": "CSM default record post-Details"
+                            },
+                            "order": 400,
+                            "type": "extension_point"
+                        }
+                    ],
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "clpljlkggaaaiseddffhhpggiggddeiieeu",
+                                "elementLabel": "Order Details",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "name": "Untitled Tab",
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "bundleLink": {
+                                                "bundleInstanceId": "form_1",
+                                                "elementType": "root"
+                                            },
+                                            "definition": {
+                                                "id": "cdf8d604a3fda59e69ccd6dd407263d6",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "form_default",
+                                            "elementLabel": "Form Default",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "extensionPoints": [
+                                                
+                                            ],
+                                            "isHero": false,
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "isNonDestructive": false,
+                                            "items": [
+                                                
+                                            ],
+                                            "overrides": null,
+                                            "preset": {
+                                                "controllerElementId": "record",
+                                                "disabledEventTargetIds": [
+                                                    
+                                                ],
+                                                "id": "187b98f917f400e17ab765dee8b4fb04"
+                                            },
+                                            "propertyValues": {
+                                                "disableCollapse": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "inRecordPageTab": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "inUiBuilder": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "isContextMenuHidden": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "isFormOptionsHidden": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "isRemovePaddingLeft": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "isSectionMenuHidden": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "isSectionTitleHidden": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "scrollableHost": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "form_default",
+                                                    "styles": {
+                                                        "background-color": "inherit",
+                                                        "margin-top": "calc(var(--now-scale-space--xl, 1)*1.5rem)",
+                                                        "padding-inline-end": "calc(var(--now-scale-space--xl, 1)*1.5rem)",
+                                                        "width": "100%"
+                                                    }
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "min-height": "300px",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "clpljlk6a0isd357po7eezw93",
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "REPEATER",
+                                    "type": "REPEATER"
+                                },
+                                "elementId": "clqcclwniiiaabbarddffhhpprohrwqhh",
+                                "elementLabel": "Related Records",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "name": "Related Records",
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "3e6ce775e9b2140536acf1276b4d20bc",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "clqcclwniiiaabbasddffhhpxlhblfyo",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "actionConfigId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "columns": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "fixedQuery": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "fixedQuery"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "groupByField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "hideCheckboxHover": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnGrouping": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnReorder": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideColumnResizing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideDeclarativeActions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideDotwalk": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideHighlightContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideHighlightedValues": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideInlineEditing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLinks": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideNextPage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelAdvanced": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelConditionDelete": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelFooter": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePanelRestore": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePersonalization": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hidePreviousPage": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideSelectAll": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideUnnecessaryRowSelectors": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "highlightContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "color": "",
+                                                        "patterns": [
+                                                            
+                                                        ]
+                                                    }
+                                                },
+                                                "highlightedValueConfigId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "limit": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "listTitle": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "displayName"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "maxCharLimit": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 4000
+                                                },
+                                                "maxColumns": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "overrideWordWrapUserPref": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "parentRecordSysId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "parentRecordSysId"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "parentTable": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "parentTable"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "query": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "active=true"
+                                                },
+                                                "refreshRequested": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "refreshRequested"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "relatedListName": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "relatedListName"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "table": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "table"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "view": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "view"
+                                                        ],
+                                                        "category": "value"
+                                                    },
+                                                    "type": "REPEATER_ITEM_BINDING"
+                                                },
+                                                "wordWrap": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                }
+                                            },
+                                            "slot": "tabs_1",
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": null
+                                },
+                                "preset": null,
+                                "repeatWith": {
+                                    "binding": {
+                                        "address": [
+                                            "record",
+                                            "relatedLists"
+                                        ]
+                                    },
+                                    "type": "DATA_OUTPUT_BINDING"
+                                },
+                                "slot": "clq2lwn8c01aq357pzyzxu0a8",
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
+                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
+                                },
+                                "elementId": "clqcclxyddlaabbbhddffhhphhsccccggcn",
+                                "elementLabel": "CSM default record post-related lists",
+                                "eventMappings": [
+                                    
+                                ],
+                                "extensionPoints": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "metadata": {
+                                    "extensionPointToUse": {
+                                        "appShell": "76a83a645b122010b913030a1d81c780",
+                                        "component": "b324da974cef96f2db1d484cfeda4e3e",
+                                        "controller": "029f04e053610110ac9bddeeff7b1294",
+                                        "controllerName": "Form",
+                                        "inUse": false,
+                                        "isControllerPresent": true,
+                                        "name": "CSM default record post-related lists",
+                                        "subroutes": [
+                                            {
+                                                "name": "Order Orchestration",
+                                                "routeType": "order-orchestration",
+                                                "screenType": "e62d205aeba291109e8de88b035228e6",
+                                                "screens": [
+                                                    {
+                                                        "name": "Order Orchestration default",
+                                                        "sysId": "ea2d205aeba291109e8de88b035228eb"
+                                                    }
+                                                ],
+                                                "sysId": "6a2da05aeba291109e8de88b0352284e"
+                                            }
+                                        ],
+                                        "sysId": "ca1de18461011110fa9ba6da704974a6",
+                                        "sysScope": {
+                                            "displayValue": "CSM and FSM Configurable Workspace Foundation",
+                                            "scopeName": "sn_cwf_wrkspc",
+                                            "value": "27b568be53b11010d4f9ddeeff7b12c5"
+                                        }
+                                    },
+                                    "isExtensionPoint": true
+                                },
+                                "name": "CSM default record post-related lists",
+                                "preset": null,
+                                "propertyValues": {
+                                    "pageCollectionMode": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    }
+                                },
+                                "slot": "clq2lxy3f01bg357pvaphw5aj",
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "MACROPONENT_VIEWPORT_HEADLESS",
+                                    "type": "MACROPONENT_VIEWPORT_HEADLESS"
+                                },
+                                "elementId": "clqccmjjaamaaabbhzddffhhpwiiihhpccso",
+                                "elementLabel": "CSM default record post-Details",
+                                "eventMappings": [
+                                    
+                                ],
+                                "extensionPoints": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "metadata": {
+                                    "extensionPointToUse": {
+                                        "appShell": "76a83a645b122010b913030a1d81c780",
+                                        "component": "b324da974cef96f2db1d484cfeda4e3e",
+                                        "controller": "029f04e053610110ac9bddeeff7b1294",
+                                        "controllerName": "Form",
+                                        "inUse": false,
+                                        "isControllerPresent": true,
+                                        "name": "CSM default record post-Details",
+                                        "subroutes": [
+                                            {
+                                                "name": "Account Information",
+                                                "routeType": "account-information",
+                                                "screenType": "ff100771ebae51109e8de88b03522826",
+                                                "screens": [
+                                                    {
+                                                        "name": "Account Information default",
+                                                        "sysId": "331003b1ebae51109e8de88b03522839"
+                                                    }
+                                                ],
+                                                "sysId": "f71003b1ebae51109e8de88b0352283f"
+                                            },
+                                            {
+                                                "name": "Catalog Hierarchy",
+                                                "routeType": "catalog-hierarchy",
+                                                "screenType": "9a415a7eeb6211109e8de88b0352281c",
+                                                "screens": [
+                                                    {
+                                                        "name": "Catalog Hierarchy default",
+                                                        "sysId": "a6415a7eeb6211109e8de88b03522822"
+                                                    }
+                                                ],
+                                                "sysId": "2a415a7eeb6211109e8de88b03522828"
+                                            },
+                                            {
+                                                "name": "Customer Activity",
+                                                "routeType": "customer_activity",
+                                                "screenType": "de30f69e85951110f8774b5b462014b7",
+                                                "screens": [
+                                                    {
+                                                        "name": "Customer Activity default",
+                                                        "sysId": "6e303e9e85951110f8774b5b4620140f"
+                                                    }
+                                                ],
+                                                "sysId": "aa303e9e85951110f8774b5b46201415"
+                                            },
+                                            {
+                                                "name": "Customer Information",
+                                                "routeType": "customer-information",
+                                                "screenType": "cc5e6887d1955110f8779c2c069dcb42",
+                                                "screens": [
+                                                    {
+                                                        "name": "Customer Information default",
+                                                        "sysId": "985e20c7d1955110f8779c2c069dcbf6"
+                                                    }
+                                                ],
+                                                "sysId": "5c5e20c7d1955110f8779c2c069dcbfc"
+                                            },
+                                            {
+                                                "name": "Install Base",
+                                                "routeType": "installbase",
+                                                "screenType": "02fccf1e85191110f8774b5b462014d2",
+                                                "screens": [
+                                                    {
+                                                        "name": "Install Base default",
+                                                        "sysId": "d6fccf1e85191110f8774b5b462014d8"
+                                                    }
+                                                ],
+                                                "sysId": "dafcc75e85191110f8774b5b462014d6"
+                                            }
+                                        ],
+                                        "sysId": "06ece18461011110fa9ba6da704974b3",
+                                        "sysScope": {
+                                            "displayValue": "CSM and FSM Configurable Workspace Foundation",
+                                            "scopeName": "sn_cwf_wrkspc",
+                                            "value": "27b568be53b11010d4f9ddeeff7b12c5"
+                                        }
+                                    },
+                                    "isExtensionPoint": true
+                                },
+                                "name": "CSM default record post-Details",
+                                "preset": null,
+                                "propertyValues": {
+                                    "pageCollectionMode": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    }
+                                },
+                                "slot": "clq2m90m001hy357ps18ftwsb",
+                                "styles": null
+                            }
+                        ],
+                        "layout": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "activeRoute": {
+                            "extensionPoint": [
+                                {
+                                    "controllerDependencyMap": null,
+                                    "controllerElementId": "record",
+                                    "name": "CSM default record post-related lists",
+                                    "sysId": "ca1de18461011110fa9ba6da704974a6"
+                                },
+                                {
+                                    "controllerDependencyMap": null,
+                                    "controllerElementId": null,
+                                    "name": "CSM default record post-Details",
+                                    "sysId": "06ece18461011110fa9ba6da704974b3"
+                                }
+                            ],
+                            "id": "clq2m90m001hy357ps18ftwsb"
+                        },
+                        "ariaLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "defaultRoute": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "dynamicTabData": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "enableCollapsing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "fixedWidth": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "initiallyCollapsed": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "items": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "maxWidth": {
+                            "type": "JSON_LITERAL",
+                            "value": 240
+                        },
+                        "position": {
+                            "type": "JSON_LITERAL",
+                            "value": "top"
+                        },
+                        "selectedTabIndex": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "showInlinePadding": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "spaceBetweenItems": {
+                            "type": "JSON_LITERAL",
+                            "value": "none"
+                        },
+                        "tabStyles": {
+                            "type": "JSON_LITERAL",
+                            "value": ".tabset-tabs{\n\n}\n.tabset-container{\n\n}"
+                        },
+                        "viewportConfiguration": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "enableDataDrivenTabs": true,
+                                "validation": {
+                                    "icon": {
+                                        "required": false
+                                    },
+                                    "name": {
+                                        "required": true
+                                    },
+                                    "order": {
+                                        "required": false
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "tabs_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "form_1",
+                "elementType": "controller"
+            }
+        ],
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "record",
+        "elementLabel": "Form Controller",
+        "eventMappings": [
+            {
+                "eventMappingId": "srp_on_load_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": null
+                        },
+                        "operation": null,
+                        "targetId": "srp_on_load_notification",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_add_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_clear_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                            "payload": {}
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_remove_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#REMOVE_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_set_loading_state",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_1",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#SET_LOADING_STATE",
+                            "payload": {
+                                "container": {
+                                    "label": {
+                                        "binding": {
+                                            "address": [
+                                                "label"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "loading": {
+                                        "binding": {
+                                            "address": [
+                                                "loading"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "0404f68486f1baab1dc7ef2a27a3de50"
+                        },
+                        "operation": null,
+                        "targetId": "formSetLoadingState",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputExtraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "binding": {
+                    "address": [
+                        "view"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "a20800ca47473110036bbce5536d43dd",
+            "type": "TRANSFORM"
+        },
+        "dependencies": {},
+        "elementId": "get_enrichment_record_1",
+        "elementLabel": "Get Enrichment Record 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "recordSysId": {
+                "binding": {
+                    "address": [
+                        "productOrdSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "tableSysId": {
+                "type": "JSON_LITERAL",
+                "value": "sn_ind_tmt_orm_enrichment_details"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "container_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Order End Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpljjadkaaionddffhhpsaasjjoiini",
+        "inherited": false,
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpljjadkaaiooddffhhphlrgghhdggl",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpljjadkaaiopddffhhpxeejjeeojjgl",
+        "inherited": false,
+        "label": "oliSysId",
+        "mandatory": false,
+        "name": "oliSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpljjadkaaioqddffhhpjjiicjjdddeen",
+        "inherited": false,
+        "label": "productOrdSysId",
+        "mandatory": false,
+        "name": "productOrdSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpljjadkaaiorddffhhpdyoiibytc",
+        "inherited": false,
+        "label": "cfdSysId",
+        "mandatory": false,
+        "name": "cfdSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Order Details",
+  "comment" : ""
+}, {
+  "message" : "Related Records",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 18:39:11</sys_created_on>
+        <sys_id>97d966c64736b110036bbce5536d43e2</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Order End Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_macroponent_97d966c64736b110036bbce5536d43e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 17:28:14</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=97d966c64736b110036bbce5536d43e2"/>
+</record_update>

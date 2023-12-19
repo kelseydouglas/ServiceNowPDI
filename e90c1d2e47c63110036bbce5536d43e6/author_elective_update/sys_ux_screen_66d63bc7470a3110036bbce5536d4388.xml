@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Default">2ad63bc7470a3110036bbce5536d4385</macroponent>
+        <macroponent_config/>
+        <name>Create Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Default">60d6638347c63110036bbce5536d43a4</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Create default">ded63bc7470a3110036bbce5536d437f</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 20:02:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66d63bc7470a3110036bbce5536d4388</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_66d63bc7470a3110036bbce5536d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 20:06:58</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=66d63bc7470a3110036bbce5536d4388"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_66d63bc7470a3110036bbce5536d4388</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Default">2ad63bc7470a3110036bbce5536d4385</macroponent><macroponent_config/><name>Create Default</name><order>0</order><parent_macroponent display_value="Default">60d6638347c63110036bbce5536d43a4</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Create default">ded63bc7470a3110036bbce5536d437f</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-27 20:02:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66d63bc7470a3110036bbce5536d4388</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create Default</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_66d63bc7470a3110036bbce5536d4388</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-27 20:06:58</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=66d63bc7470a3110036bbce5536d4388"/></record_update>]]></payload>
+        <payload_hash>595643364</payload_hash>
+        <record_name>Create Default</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 20:06:58</sys_created_on>
+        <sys_id>bde7b34b470a3110036bbce5536d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b72bf42490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 20:06:58</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>35e7b34b9a0a3110c59914713673d1a4</update_guid>
+        <update_guid_history>35e7b34b9a0a3110c59914713673d1a4:595643364,a2d63bc7970a3110bc18ce64c02f3f8a:-377514052</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 20:06:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>4b00c38c24fe47c081c0429a84ae1000</sys_id>
+        <sys_metadata>66d63bc7470a3110036bbce5536d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_66d63bc7470a3110036bbce5536d4388</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_66d63bc7470a3110036bbce5536d4388">bde7b34b470a3110036bbce5536d43a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 20:06:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

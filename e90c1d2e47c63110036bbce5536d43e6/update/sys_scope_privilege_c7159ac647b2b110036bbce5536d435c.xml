@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 17:08:30</sys_created_on>
+        <sys_id>c7159ac647b2b110036bbce5536d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_ind_tmt_orm_order_task</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_scope_privilege_c7159ac647b2b110036bbce5536d435c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 17:08:30</sys_updated_on>
+        <target_name>sn_ind_tmt_orm_order_task</target_name>
+        <target_scope display_value="Order Management">3c58f5d55b0310102dff5e92dc81c711</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

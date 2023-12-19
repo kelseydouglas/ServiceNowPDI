@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Playbook Default">0ee71f2c4703b110036bbce5536d430b</macroponent>
+        <macroponent_config/>
+        <name>Playbook Tab</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record Page Tabs">a04c00820f901010a326b6ade7767ef9</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Playbook OLI">05095f2c4703b110036bbce5536d4315</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:33:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd595f2c4703b110036bbce5536d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_bd595f2c4703b110036bbce5536d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:33:24</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=bd595f2c4703b110036bbce5536d431b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_bd595f2c4703b110036bbce5536d431b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Playbook Default">0ee71f2c4703b110036bbce5536d430b</macroponent><macroponent_config/><name>Playbook Tab</name><order>0</order><parent_macroponent display_value="Record Page Tabs">a04c00820f901010a326b6ade7767ef9</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Playbook OLI">05095f2c4703b110036bbce5536d4315</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 16:33:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd595f2c4703b110036bbce5536d431b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Playbook Tab</sys_name><sys_overrides/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_bd595f2c4703b110036bbce5536d431b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 16:33:24</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=bd595f2c4703b110036bbce5536d431b"/></record_update>]]></payload>
+        <payload_hash>977837643</payload_hash>
+        <record_name>Playbook Tab</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:33:24</sys_created_on>
+        <sys_id>76c957ec4703b110036bbce5536d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c4a46d2b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:33:24</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>7ac957ec8503b1103d21c8070661d997</update_guid>
+        <update_guid_history>7ac957ec8503b1103d21c8070661d997:977837643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>29ba718ad8a4461583fb7bafd60a24c9</sys_id>
+        <sys_metadata>bd595f2c4703b110036bbce5536d431b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Tab</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_bd595f2c4703b110036bbce5536d431b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_bd595f2c4703b110036bbce5536d431b">76c957ec4703b110036bbce5536d4398</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

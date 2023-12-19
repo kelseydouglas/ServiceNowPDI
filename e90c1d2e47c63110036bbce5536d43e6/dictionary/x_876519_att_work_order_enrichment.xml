@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6f5a7e5b4756b110036bbce5536d432a" label="Order Enrichment" max_length="40" name="x_876519_att_work_order_enrichment" type="collection">
+        <element label="Domain Order" max_length="32" name="domain_order" read_only="true" reference="sn_ind_tmt_orm_domain_order" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Order Details " max_length="40" name="order_details" type="string"/>
+        <index name="index">
+            <element name="domain_order"/>
+        </index>
+    </element>
+</database>

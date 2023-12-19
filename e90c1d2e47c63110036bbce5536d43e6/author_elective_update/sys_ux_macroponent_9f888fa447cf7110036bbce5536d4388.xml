@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "a04c00820f901010a326b6ade7767ef9",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "record_tabs_1",
+                    "elementLabel": "Record Tabs 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "detailsProps": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "disableCollapse": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "extraParams": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "formMessages": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "isContextMenuHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isFormOptionsHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isInitialPageLoad": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isRemovePaddingLeft": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isSectionMenuHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isSectionTitleHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "query": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "relatedListRefreshRequests": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "sectionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "2"
+                        },
+                        "selectedTabIndex": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "sysId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "tabRoutes": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "fields": {
+                                        "details": true
+                                    },
+                                    "label": "Details",
+                                    "options": {},
+                                    "route": "details"
+                                }
+                            ]
+                        },
+                        "table": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "userSession": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "record_tabs_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "ed99051389038d7a6d57069eecc5a122",
+            "type": "MACROPONENT"
+        },
+        "elementId": "playbook_1",
+        "elementLabel": "Playbook 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "ui_controller_record_page_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "d2d7eb293fafb19c15eefd71fb928f6c"
+        },
+        "propertyValues": {
+            "activityView": {
+                "type": "JSON_LITERAL",
+                "value": "focused"
+            },
+            "compactMode": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "enableFullWidthCards": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "parentSysId": {
+                "binding": {
+                    "address": [
+                        "playbookSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "parentTable": {
+                "binding": {
+                    "address": [
+                        "playbookTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "playbookExperienceId": {
+                "type": "JSON_LITERAL",
+                "value": "0561fcf547b23110036bbce5536d4306"
+            },
+            "selectedActivityContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedLaneContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedPlaybookContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "userId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "0c3568c75bee0110d78e9e7fb681c784",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "gform": "form_1"
+        },
+        "elementId": "ui_controller_record_page_1",
+        "elementLabel": "UI Controller Record Page 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "extraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "views": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "form_1",
+        "elementLabel": "Form 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputExtraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputSysId": {
+                "binding": {
+                    "address": [
+                        "playbookSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputTable": {
+                "binding": {
+                    "address": [
+                        "playbookTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "binding": {
+                    "address": [
+                        "view"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "container_1",
+                "styles": {}
+            },
+            {
+                "element_id": "playbook_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Playbook Page Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "table",
+        "label": "Table",
+        "name": "table",
+        "translatable": false
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "sysId",
+        "label": "sysId",
+        "name": "sysId",
+        "translatable": false
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaacclqddffhhpoljjtypen",
+        "inherited": false,
+        "label": "Category",
+        "mandatory": false,
+        "name": "category",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaacclrddffhhpqurkgovee",
+        "inherited": false,
+        "label": "Type",
+        "mandatory": false,
+        "name": "type",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaacclsddffhhpkddcywiiti",
+        "inherited": false,
+        "label": "oliSysId",
+        "mandatory": false,
+        "name": "oliSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaaccltddffhhpcqjjqihul",
+        "inherited": false,
+        "label": "productSysId",
+        "mandatory": false,
+        "name": "productSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaaccluddffhhpoaabcakaar",
+        "inherited": false,
+        "label": "cfdSysId",
+        "mandatory": false,
+        "name": "cfdSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "playbookTable",
+        "label": "playbookTable",
+        "name": "playbookTable",
+        "translatable": false
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "playbookSysId",
+        "label": "playbookSysId",
+        "name": "playbookSysId",
+        "translatable": false
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Details",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:18:04</sys_created_on>
+        <sys_id>9f888fa447cf7110036bbce5536d4388</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Playbook Page Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_macroponent_9f888fa447cf7110036bbce5536d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:51:56</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=9f888fa447cf7110036bbce5536d4388"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_macroponent_9f888fa447cf7110036bbce5536d4388</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "a04c00820f901010a326b6ade7767ef9",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "record_tabs_1",
+                    "elementLabel": "Record Tabs 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "detailsProps": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "disableCollapse": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "extraParams": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "formMessages": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "isContextMenuHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isFormOptionsHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isInitialPageLoad": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isRemovePaddingLeft": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isSectionMenuHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "isSectionTitleHidden": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "query": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "relatedListRefreshRequests": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "sectionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "2"
+                        },
+                        "selectedTabIndex": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "sysId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "tabRoutes": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "fields": {
+                                        "details": true
+                                    },
+                                    "label": "Details",
+                                    "options": {},
+                                    "route": "details"
+                                }
+                            ]
+                        },
+                        "table": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "userSession": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "record_tabs_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "ed99051389038d7a6d57069eecc5a122",
+            "type": "MACROPONENT"
+        },
+        "elementId": "playbook_1",
+        "elementLabel": "Playbook 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": {
+            "controllerElementId": "ui_controller_record_page_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "d2d7eb293fafb19c15eefd71fb928f6c"
+        },
+        "propertyValues": {
+            "activityView": {
+                "type": "JSON_LITERAL",
+                "value": "focused"
+            },
+            "compactMode": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "daClientActionContract": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "enableFullWidthCards": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "parentSysId": {
+                "binding": {
+                    "address": [
+                        "playbookSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "parentTable": {
+                "binding": {
+                    "address": [
+                        "playbookTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "playbookExperienceId": {
+                "type": "JSON_LITERAL",
+                "value": "0561fcf547b23110036bbce5536d4306"
+            },
+            "selectedActivityContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedLaneContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedPlaybookContextId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "userId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition><da_relay_models/><data>[
+    {
+        "definition": {
+            "id": "0c3568c75bee0110d78e9e7fb681c784",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "gform": "form_1"
+        },
+        "elementId": "ui_controller_record_page_1",
+        "elementLabel": "UI Controller Record Page 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "extraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "views": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "form_1",
+        "elementLabel": "Form 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputExtraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputSysId": {
+                "binding": {
+                    "address": [
+                        "playbookSysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputTable": {
+                "binding": {
+                    "address": [
+                        "playbookTable"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "view": {
+                "binding": {
+                    "address": [
+                        "view"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data><description/><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "container_1",
+                "styles": {}
+            },
+            {
+                "element_id": "playbook_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout><macroponent_dependencies/><name>Playbook Page Default</name><output_prop_mapping/><props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "table",
+        "label": "Table",
+        "name": "table",
+        "translatable": false
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "sysId",
+        "label": "sysId",
+        "name": "sysId",
+        "translatable": false
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaacclqddffhhpoljjtypen",
+        "inherited": false,
+        "label": "Category",
+        "mandatory": false,
+        "name": "category",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaacclrddffhhpqurkgovee",
+        "inherited": false,
+        "label": "Type",
+        "mandatory": false,
+        "name": "type",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaacclsddffhhpkddcywiiti",
+        "inherited": false,
+        "label": "oliSysId",
+        "mandatory": false,
+        "name": "oliSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaaccltddffhhpcqjjqihul",
+        "inherited": false,
+        "label": "productSysId",
+        "mandatory": false,
+        "name": "productSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clpwshzghhaaccluddffhhpoaabcakaar",
+        "inherited": false,
+        "label": "cfdSysId",
+        "mandatory": false,
+        "name": "cfdSysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "playbookTable",
+        "label": "playbookTable",
+        "name": "playbookTable",
+        "translatable": false
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "playbookSysId",
+        "label": "playbookSysId",
+        "name": "playbookSysId",
+        "translatable": false
+    }
+]</props><required_translations>[ {
+  "message" : "Details",
+  "comment" : ""
+} ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_properties/><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 15:18:04</sys_created_on><sys_id>9f888fa447cf7110036bbce5536d4388</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Playbook Page Default</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_macroponent_9f888fa447cf7110036bbce5536d4388</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 15:51:56</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=9f888fa447cf7110036bbce5536d4388"/></record_update>]]></payload>
+        <payload_hash>-722359240</payload_hash>
+        <record_name>Playbook Page Default</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:51:56</sys_created_on>
+        <sys_id>1b4017a04703b110036bbce5536d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c4a20db580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:51:56</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>9f4017a0ee03b1108e01e5aaae1a6ac7</update_guid>
+        <update_guid_history>9f4017a0ee03b1108e01e5aaae1a6ac7:-722359240,983053a05903b1105654f10073d821d5:-275302814,b5209760fd03b1102925a65e92db1517:1981364699,82ff0f609903b1105401f18f643af676:-357684930,abec836c70cf71108f6e10cd0111e7db:1073325214,602c0be863cf71102f2b02b810da4bf2:-650167611,79a803e44fcf7110b30fe6a312859399:901782144,1b888fa40fcf7110c479d18fbcbf7d8a:-1347311947</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>53a6204ff82a4018a69b21de5248b824</sys_id>
+        <sys_metadata>9f888fa447cf7110036bbce5536d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Page Default</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_9f888fa447cf7110036bbce5536d4388</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_9f888fa447cf7110036bbce5536d4388">1b4017a04703b110036bbce5536d43c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

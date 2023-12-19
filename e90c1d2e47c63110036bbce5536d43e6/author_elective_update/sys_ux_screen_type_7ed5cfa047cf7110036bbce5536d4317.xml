@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Playbook Tab </name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:06:28</sys_created_on>
+        <sys_id>7ed5cfa047cf7110036bbce5536d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Tab </sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_screen_type_7ed5cfa047cf7110036bbce5536d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:06:28</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=7ed5cfa047cf7110036bbce5536d4317"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_screen_type_7ed5cfa047cf7110036bbce5536d4317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Playbook Tab </name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 15:06:28</sys_created_on><sys_id>7ed5cfa047cf7110036bbce5536d4317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Playbook Tab </sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_screen_type_7ed5cfa047cf7110036bbce5536d4317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 15:06:28</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=7ed5cfa047cf7110036bbce5536d4317"/></record_update>]]></payload>
+        <payload_hash>-1733571827</payload_hash>
+        <record_name>Playbook Tab </record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:06:29</sys_created_on>
+        <sys_id>2de5c32047cf7110036bbce5536d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c49f73dc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:06:29</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>21e5c320dccf7110ed59fa5808eda4fa</update_guid>
+        <update_guid_history>21e5c320dccf7110ed59fa5808eda4fa:-1733571827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>0dd2225b3b094781814055fb1d3280e9</sys_id>
+        <sys_metadata>7ed5cfa047cf7110036bbce5536d4317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Tab </sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_7ed5cfa047cf7110036bbce5536d4317</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_7ed5cfa047cf7110036bbce5536d4317">2de5c32047cf7110036bbce5536d43fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

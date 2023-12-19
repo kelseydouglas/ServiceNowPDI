@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Create default">17a5db00479a3110036bbce5536d43f5</macroponent>
+        <name>Call Create Order Data Broker</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (api.context.props.sysId == "" || api.context.props.sysId == null || api.context.props.sysId === undefined || api.context.props.sysId === '-1') {
+        let date_ob = new Date();
+        // adjust 0 before single digit date
+        let date = ("0" + date_ob.getDate()).slice(-2);
+        // current month
+        let month = ("0" + (date_ob.getMonth() + 1)).slice(-2);
+        // current year
+        let year = date_ob.getFullYear();
+        // current hours
+        let hours = date_ob.getHours();
+        // current minutes
+        let minutes = date_ob.getMinutes();
+        // current seconds
+        let seconds = date_ob.getSeconds();
+        // prints date & time in YYYY-MM-DD HH:MM:SS format
+        var order_date = (year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
+        api.data.create_order.execute({
+            table: 'sn_ind_tmt_orm_order',
+            templateFields: 'account=' + api.state.account.id + '^contact=' + api.state.contact.id + '^' + "order_date=" + order_date + "^order_category=" +api.context.props.category+"^order_type="+api.context.props.type,
+            useSetDisplayValue: null
+        });
+        console.log('order date: ' + order_date);
+    }
+/*
+    if(api.context.props.sysId != undefined && api.context.props.sysId != "" && api.context.props.sysId != "-1"){
+        var route = 'select';
+        var fields = {
+                    'sysId':api.context.props.sysId,
+                    'category':api.context.props.category,
+                    'type':api.context.props.type,
+                    'orderNumber':api.state.orderNumber
+                    };
+                    console.log('fields : ' + fields);
+        if (api.context.props.type == "change" || api.context.props.type == "disconnect"){
+            var route = 'invt-select';
+        }
+        var payload = {
+                route: route,
+                fields: fields
+            };
+
+
+        api.emit('SN_NAVIGATE_TO_STEP', payload);
+    }
+        */
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 20:25:56</sys_created_on>
+        <sys_id>ae179b80479a3110036bbce5536d43b5</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name>Call Create Order Data Broker</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_ae179b80479a3110036bbce5536d43b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 19:42:48</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_client_script_ae179b80479a3110036bbce5536d43b5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Create default"&gt;17a5db00479a3110036bbce5536d43f5&lt;/macroponent&gt;&lt;name&gt;Call Create Order Data Broker&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (api.context.props.sysId == "" || api.context.props.sysId == null || api.context.props.sysId === undefined || api.context.props.sysId === '-1') {
+        let date_ob = new Date();
+        // adjust 0 before single digit date
+        let date = ("0" + date_ob.getDate()).slice(-2);
+        // current month
+        let month = ("0" + (date_ob.getMonth() + 1)).slice(-2);
+        // current year
+        let year = date_ob.getFullYear();
+        // current hours
+        let hours = date_ob.getHours();
+        // current minutes
+        let minutes = date_ob.getMinutes();
+        // current seconds
+        let seconds = date_ob.getSeconds();
+        // prints date &amp; time in YYYY-MM-DD HH:MM:SS format
+        var order_date = (year + "-" + month + "-" + date + " " + hours + ":" + minutes + ":" + seconds);
+        api.data.create_order.execute({
+            table: 'sn_ind_tmt_orm_order',
+            templateFields: 'account=' + api.state.account.id + '^contact=' + api.state.contact.id + '^' + "order_date=" + order_date + "^order_category=" +api.context.props.category+"^order_type="+api.context.props.type,
+            useSetDisplayValue: null
+        });
+        console.log('order date: ' + order_date);
+    }
+/*
+    if(api.context.props.sysId != undefined &amp;&amp; api.context.props.sysId != "" &amp;&amp; api.context.props.sysId != "-1"){
+        var route = 'select';
+        var fields = {
+                    'sysId':api.context.props.sysId,
+                    'category':api.context.props.category,
+                    'type':api.context.props.type,
+                    'orderNumber':api.state.orderNumber
+                    };
+                    console.log('fields : ' + fields);
+        if (api.context.props.type == "change" || api.context.props.type == "disconnect"){
+            var route = 'invt-select';
+        }
+        var payload = {
+                route: route,
+                fields: fields
+            };
+
+
+        api.emit('SN_NAVIGATE_TO_STEP', payload);
+    }
+        */
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-30 20:25:56&lt;/sys_created_on&gt;&lt;sys_id&gt;ae179b80479a3110036bbce5536d43b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name&gt;Call Create Order Data Broker&lt;/sys_name&gt;&lt;sys_package display_value="AT&amp;amp;amp;T Workspace" source="x_876519_att_work"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AT&amp;amp;amp;T Workspace"&gt;e90c1d2e47c63110036bbce5536d43e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_ae179b80479a3110036bbce5536d43b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-06 19:42:48&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>652719688</payload_hash>
+        <record_name>Call Create Order Data Broker</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 19:42:48</sys_created_on>
+        <sys_id>8542d35a471a3110036bbce5536d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba628b8050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 19:42:48</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>0d42d35a441a3110b4be84f02c98b707</update_guid>
+        <update_guid_history>0d42d35a441a3110b4be84f02c98b707:652719688,76809b96b01a31107cd63572e3b1b40e:-1603432302,6300df569b1a31101caee438ee0eec30:469812933,e61f4b16091a3110f7243fcd92a0a1fb:-446301470,134ccb12f81a3110927b154391a6db7a:1304773622,941c8712661a311042563184000ec863:1004907486,26d9475ee9d6311088a3bb14ff2b03bf:-834962970,93e8031eb7d63110670adbf1995adeec:-457886231,a384cf56e0d63110001cd0c43e969c12:-1247976099,2d0bfa1ab1963110249990e7099c410f:-381985172,0eca761a3e96311009c9731c12b26860:-1069547376,570f6ed69356311052b4683e917638b5:-2065351692,8bbea6d637563110cdc906c8d5006efe:1315615579,919ee2d6c45631107d00df9268c40b3f:422708711,31ed26963b563110de9bfb442742045a:-1545504359,27adee567156311082ec69dd887ed022:1274518004,502de25627563110b62b5c609e6723a1:24477702,40ccaa168c563110ecbf42ce8d542c9a:1431933804,a33a2652625631105bd2f91728b38184:968260926,6ee92e128a5631109e6e50ef7578ddcc:-1135046708,e9996612e9563110f9b14c87d17d7454:-1824460301,6424bd38c6d6b110abbd98a03182e3bc:-301216916,194ecdf0a316b110565ee20620940c7b:1457391244,655dfcf89a92b110703c02dbe00c3b2b:-247308672,9daa34389192b1108fb244b016ad45c4:-597307392,7e4934b4b892b1106370a331b32145ac:1641937590,5fe42078a512b11077c643bf6a63db1a:-873281045,e71364b46012b110e6871ae900f41057:-2047667691,688120345012b110016b53bf7ed5b04f:-324678377,bb7f54700b12b1101f4bb83044e95139:-1032290313,a6fd90fc49de71106f5f7b1c8f3949eb:1772065718,0dbd1cbc2bde7110e6555b9835163370:-1748947910,e0a668e8ab5a31105b6054763cf77557:-141003504,4d7624e87a5a31102255cdf39ce917a8:1335332944,6ec5e0a8c75a31107ffbc1147cdc89b8:-359580944,5b452868755a311018fcafb72562d738:1317128158,3c475ca4d91a3110e982a6cd2727d5fc:-1714633486,dc76d864be1a3110766d3e45b6b46b5f:1013629610,11d55c24f81a3110360f3cd3ee7aba9f:-1482398625,01b184284b9631103ef6eda5a04c5814:1082069712,c470e798d7d23110d0714547d15de480:1323011532,6530a3989bd23110fdd71c5be5a29d39:-350305076,9235d3d838923110f4e97f321ae30e41:575923874,94e4db983592311037d4c9bb8d71d5a7:1000804433,d3449f5830923110b6b4b4cd1eeee1b4:-55053168,19145b586b9231106b3ef3f8d9cd4f87:1144231923,94decf5002923110a1b09d040ff50a5e:1775208965,083e435067923110deeb9baa011b2a8b:1658486533,e4bd471037923110034702ef1b8062cf:565390015,b08ccb9cd8523110e1f4ef854e180e4a:-2069380130,24099744889a3110d6098332c94a2867:1958897650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 20:40:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>76b5f02cf6a24c8bbf90542e217e2529</sys_id>
+        <sys_metadata>ae179b80479a3110036bbce5536d43b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call Create Order Data Broker</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_ae179b80479a3110036bbce5536d43b5</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_ae179b80479a3110036bbce5536d43b5">8542d35a471a3110036bbce5536d4308</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 20:40:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Select default">72fa5f84479a3110036bbce5536d43d3</macroponent>
+        <name>text_link_2/href</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  var sysId = api.context.props.sysId;
+  var category = "/product/";
+  var type = "add/";
+	var link = 'https://dev111524.service-now.com/x/876519/att-workspace/configure/';
+ // var domainId = api.data.look_up_oli.result._row_data.uniqueValue;
+  var endLink = link+sysId+category+type;
+  return endLink;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 16:39:53</sys_created_on>
+        <sys_id>b1abab744762b110036bbce5536d430d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>text_link_2/href</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_b1abab744762b110036bbce5536d430d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 16:47:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

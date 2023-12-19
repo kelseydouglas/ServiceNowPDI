@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "5865e308432021105571609dc7b8f23b": {
+        "columnLimit": 0,
+        "columns": "",
+        "currentPage": 0,
+        "filter": "",
+        "listId": "",
+        "parentRecordSysId": "",
+        "parentTable": "",
+        "recordCountLimit": null,
+        "rowLimit": 10,
+        "table": "sn_ind_tmt_orm_order",
+        "transformScriptSysId": null,
+        "view": ""
+    },
+    "0c3568c75bee0110d78e9e7fb681c784": {
+        "query": null
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "",
+        "inputTable": "sn_ind_tmt_orm_order_line_item",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
+    }
+}</macroponent_config>
+        <screen display_value="Select default">befa5f84479a3110036bbce5536d43d5</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 20:34:33</sys_created_on>
+        <sys_id>f2fa9308479a3110036bbce5536d43fb</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_f2fa9308479a3110036bbce5536d43fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 16:28:41</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script_include">
+    <sys_ux_client_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <api_name>x_876519_att_work.Constants ATT</api_name>
+        <includes/>
+        <name>Constants ATT</name>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function include({
+  imports
+}) {
+  const NO_LOCATION = 'No Location',
+    ORDER_TYPE = {
+      PRODUCT: 'product',
+      SERVICE: 'service'
+    },
+    ORDER_ACTION = {
+      ADD: 'add',
+      CHANGE: 'change',
+      DISCONNECT: 'disconnect'
+    },
+    ORDER_LINE_ITEM_ACTION = {
+      ADD: 'add',
+      CHANGE: 'change',
+      DISCONNECT: 'disconnect'
+    },
+    PUBLISHED = 'status=published';
+
+  return {
+    NO_LOCATION: NO_LOCATION,
+    ORDER_TYPE: ORDER_TYPE,
+    ORDER_ACTION: ORDER_ACTION,
+    ORDER_LINE_ITEM_ACTION: ORDER_LINE_ITEM_ACTION,
+    PUBLISHED: PUBLISHED
+  };
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 19:46:12</sys_created_on>
+        <sys_id>1a937b1d4756b110036bbce5536d4373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Constants ATT</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_include_1a937b1d4756b110036bbce5536d4373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 19:46:12</sys_updated_on>
+    </sys_ux_client_script_include>
+</record_update>

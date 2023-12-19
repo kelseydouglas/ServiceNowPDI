@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>1a937b1d4756b110036bbce5536d4373,2e27bf914796b110036bbce5536d43ba</includes>
+        <macroponent display_value="Configure Default">5c57370b470a3110036bbce5536d43e8</macroponent>
+        <name>Set Tree And Form Data</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        getStepperData,
+        getFlatternLineItemsAndTreeData
+    } = imports["sn_app_orm_wksp.orderCreationUtils"]();
+    const {
+        ORDER_ACTION
+    } = imports["sn_app_orm_wksp.Constants"]();
+    const treeData = api.data.get_order_line_item_tree_data.output;
+
+    const ali = getActiveLineItem(treeData, api.state.activeLineItem);
+
+    const treeMetaData = getFlatternLineItemsAndTreeData(treeData, ali);
+    if (ali === null) {
+        api.setState("expandedLineItems", treeMetaData.expandedLineItems);
+        api.setState("selectedLineItems", treeMetaData.selectedLineItems);
+        api.setState("activeLineItem", treeMetaData.activeLineItem);
+
+        if (treeData.length == 0 || (api.context.props.type === ORDER_ACTION.ADD && treeMetaData.activeLineItem.mandatory)) {
+            api.setState("isDeleteDisabled", true);
+        } else {
+            api.setState("isDeleteDisabled", false);
+        }
+    }
+    api.setState("treeData", treeData);
+    var count = `Order line items ${'('}${treeMetaData.lineItems.length}${')'}`;
+    api.setState("lineItemCount", count);
+    api.setState("orderLineItems", treeMetaData.lineItems);
+
+
+    if (isErrorInLineItems(treeData)) {
+        api.setState("enableDisableReviewButton", true);
+    } else {
+        api.setState("enableDisableReviewButton", false);
+    }
+
+    function isErrorInLineItems(treeData) {
+        if (treeData.length == 0) {
+            return true;
+        }
+        for (var loc = 0; loc < treeData.length; loc++) {
+            for (var off = 0; off < treeData[loc].children.length; off++) {
+                if (!verifyChildLineItems(treeData[loc].children[off])) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    function verifyChildLineItems(node) {
+        // if status is busy, return false;
+        if (node.highlightedValueProps && node.highlightedValueProps[0].status == "critical")
+            return false;
+
+        // element not found add this tree node then go futher for its children
+        if (node.children)
+            for (var j = 0; j < node.children.length; j++) {
+                if (!verifyChildLineItems(node.children[j]))
+                    return false;
+            }
+        return true;
+    }
+
+    function getActiveLineItem(treeData, activeLineItem) {
+        if (activeLineItem == null) {
+            return null;
+        }
+        var queue = [];
+        queue = queue.concat(treeData);
+        while (queue.length > 0) {
+            var data = queue.pop();
+            if (activeLineItem.id === data.id) {
+                return activeLineItem;
+            }
+            queue = queue.concat(data.children);
+        }
+        return null;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 19:49:25</sys_created_on>
+        <sys_id>8ef673914796b110036bbce5536d436f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Tree And Form Data</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_8ef673914796b110036bbce5536d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 19:51:00</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

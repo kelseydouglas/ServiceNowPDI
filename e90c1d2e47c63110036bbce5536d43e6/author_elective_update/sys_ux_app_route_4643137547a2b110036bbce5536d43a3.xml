@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>record</name>
+        <optional_parameters>oliSysId,productOrderSysId,cFDSysId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Default">7aa3cd9147223510036bbce5536d432a</parent_macroponent>
+        <parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id>
+        <route_type>record</route_type>
+        <screen_type display_value="record">f143137547a2b110036bbce5536d43a0</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 16:45:58</sys_created_on>
+        <sys_id>4643137547a2b110036bbce5536d43a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>record</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_app_route_4643137547a2b110036bbce5536d43a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-22 15:21:17</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=4643137547a2b110036bbce5536d43a3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_app_route_4643137547a2b110036bbce5536d43a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><extension_point/><fields>table,sysId</fields><icon/><name>record</name><optional_parameters>oliSysId,productOrderSysId,cFDSysId</optional_parameters><order>0</order><parent_macroponent display_value="Default">7aa3cd9147223510036bbce5536d432a</parent_macroponent><parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id><route_type>record</route_type><screen_type display_value="record">f143137547a2b110036bbce5536d43a0</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-17 16:45:58</sys_created_on><sys_id>4643137547a2b110036bbce5536d43a3</sys_id><sys_mod_count>2</sys_mod_count><sys_name>record</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_app_route_4643137547a2b110036bbce5536d43a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-22 15:21:17</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=4643137547a2b110036bbce5536d43a3"/></record_update>]]></payload>
+        <payload_hash>1578033862</payload_hash>
+        <record_name>record</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-22 15:21:18</sys_created_on>
+        <sys_id>dedf28eb47623110036bbce5536d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bf79f0e450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-22 15:21:18</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>16df28ebbe6231109774200ec2fc5bbc</update_guid>
+        <update_guid_history>16df28ebbe6231109774200ec2fc5bbc:1578033862,78e353b5c4a2b110625c2d5d8ca86d31:-581324197,4643137522a2b1108f6ebef4a9ff3ea5:-822755176</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 21:20:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>3a74112bab29411a8ea967f1894d5da4</sys_id>
+        <sys_metadata>4643137547a2b110036bbce5536d43a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>record</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_4643137547a2b110036bbce5536d43a3</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_4643137547a2b110036bbce5536d43a3">dedf28eb47623110036bbce5536d43bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 21:20:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

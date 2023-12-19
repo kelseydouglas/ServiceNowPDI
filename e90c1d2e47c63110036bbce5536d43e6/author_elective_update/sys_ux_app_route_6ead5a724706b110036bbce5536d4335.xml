@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Interceptor2</name>
+        <optional_parameters>account</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Default">16ad116e47c63110036bbce5536d430e</parent_macroponent>
+        <parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id>
+        <route_type>interceptor2</route_type>
+        <screen_type display_value="Interceptor2">6ead16fe47c2b110036bbce5536d432d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 18:54:14</sys_created_on>
+        <sys_id>6ead5a724706b110036bbce5536d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interceptor2</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_app_route_6ead5a724706b110036bbce5536d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 18:54:14</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=6ead5a724706b110036bbce5536d4335"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_app_route_6ead5a724706b110036bbce5536d4335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="AT&amp;T Workspace">9a7c552e47c63110036bbce5536d4373</app_config><description/><extension_point/><fields/><icon/><name>Interceptor2</name><optional_parameters>account</optional_parameters><order>0</order><parent_macroponent display_value="Default">16ad116e47c63110036bbce5536d430e</parent_macroponent><parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id><route_type>interceptor2</route_type><screen_type display_value="Interceptor2">6ead16fe47c2b110036bbce5536d432d</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-26 18:54:14</sys_created_on><sys_id>6ead5a724706b110036bbce5536d4335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Interceptor2</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_app_route_6ead5a724706b110036bbce5536d4335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-26 18:54:14</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=6ead5a724706b110036bbce5536d4335"/></record_update>]]></payload>
+        <payload_hash>-947773723</payload_hash>
+        <record_name>Interceptor2</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 18:54:14</sys_created_on>
+        <sys_id>a2ad5a724706b110036bbce5536d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6d564f620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 18:54:14</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>a6ad5a727206b110c82fa7f151dd2a37</update_guid>
+        <update_guid_history>a6ad5a727206b110c82fa7f151dd2a37:-947773723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 18:49:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>769038edf02a4d7794ed462b2b8631e1</sys_id>
+        <sys_metadata>6ead5a724706b110036bbce5536d4335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interceptor2</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_6ead5a724706b110036bbce5536d4335</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_6ead5a724706b110036bbce5536d4335">a2ad5a724706b110036bbce5536d4338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 18:49:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

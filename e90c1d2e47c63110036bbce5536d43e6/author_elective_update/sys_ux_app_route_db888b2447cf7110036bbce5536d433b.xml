@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId,category,type,oliSysId</fields>
+        <icon/>
+        <name>Playbook Page</name>
+        <optional_parameters>productSysId,cfdSysId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Default">7aa3cd9147223510036bbce5536d432a</parent_macroponent>
+        <parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id>
+        <route_type>playbook-page</route_type>
+        <screen_type display_value="Playbook Page">c7888b2447cf7110036bbce5536d4339</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:18:04</sys_created_on>
+        <sys_id>db888b2447cf7110036bbce5536d433b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Playbook Page</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_app_route_db888b2447cf7110036bbce5536d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:36:22</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=db888b2447cf7110036bbce5536d433b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_ux_app_route_db888b2447cf7110036bbce5536d433b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="ATT Custom Workspace">f94d309947eef110036bbce5536d43ce</app_config><description/><extension_point/><fields>table,sysId,category,type,oliSysId</fields><icon/><name>Playbook Page</name><optional_parameters>productSysId,cfdSysId</optional_parameters><order>0</order><parent_macroponent display_value="Default">7aa3cd9147223510036bbce5536d432a</parent_macroponent><parent_macroponent_composition_element_id>viewport_1</parent_macroponent_composition_element_id><route_type>playbook-page</route_type><screen_type display_value="Playbook Page">c7888b2447cf7110036bbce5536d4339</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 15:18:04</sys_created_on><sys_id>db888b2447cf7110036bbce5536d433b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Playbook Page</sys_name><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_ux_app_route_db888b2447cf7110036bbce5536d433b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 15:36:22</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=db888b2447cf7110036bbce5536d433b"/></record_update>]]></payload>
+        <payload_hash>-373240915</payload_hash>
+        <record_name>Playbook Page</record_name>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:36:22</sys_created_on>
+        <sys_id>6fbc072c47cf7110036bbce5536d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c4a129cbe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:36:22</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>e3bc072c92cf7110a289ae45c53c38e7</update_guid>
+        <update_guid_history>e3bc072c92cf7110a289ae45c53c38e7:-373240915,149c072c45cf7110aaa8689f2cef6c98:-1619671266,1f888fa4b9cf711001329163d7965987:-2053486629</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 16:36:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>1161321cf30949b486af26f8e9266704</sys_id>
+        <sys_metadata>db888b2447cf7110036bbce5536d433b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbook Page</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_db888b2447cf7110036bbce5536d433b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_db888b2447cf7110036bbce5536d433b">6fbc072c47cf7110036bbce5536d43e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 16:36:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

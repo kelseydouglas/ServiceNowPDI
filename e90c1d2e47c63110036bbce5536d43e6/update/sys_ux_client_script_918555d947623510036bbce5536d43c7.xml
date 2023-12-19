@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Select default">00c3915947623510036bbce5536d4312</macroponent>
+        <name>Load Location Modal</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    //1. Load the Order DB to fetch Account Information
+    var orderData = api.data.get_order_record.results;
+    if(orderData == undefined || orderData == '' || Object.keys(orderData).length == 0)
+      return ;
+
+    //set the account data
+    var account = orderData[0].account.value;
+    api.setState('account',account);
+
+    //Check if location orders data exists
+    var loadModal = true;
+    
+    var locations = api.data.get_locations_order_data_db.output;
+    if(locations != 'undefined' && locations != '' && locations != '-1' && Object.keys(locations).length > 0){
+      api.setState('locationsOrders',locations);
+      loadModal = false;
+    }
+    
+    //Load the modal, if location orders data does not exist
+    if (loadModal){
+        api.setState('locationsOrders',{});
+        api.setState('selectedLocations',[]);
+        api.setState('currentItems',[]);
+        api.setState('activeLocation',{});
+        api.setState('filteredLocations',{});
+        helpers.modal.open("cust_add_locations", {
+            bare: true
+        });
+    }
+    else{
+       //Selected Locations
+        var selectedLocations = getlocations(locations);
+        api.setState('selectedLocations',selectedLocations);
+
+        //Active Location
+        api.setState('activeLocation',selectedLocations[0]);
+        api.setState('filteredLocations',[selectedLocations[0]]);
+        
+        //Product Offerings
+        api.setState('currentItems',getcurrentItems(locations));
+
+        //Contacts
+        var contact = getContacts(locations);
+        api.setState('firstName',contact.firstName);
+        api.setState('lastName',contact.lastName);
+        api.setState('email',contact.email);
+        api.setState('phone',contact.phone);
+      }
+
+      
+       /** 
+        * Retrieve Location JSON from the Get Locations form the Order Data broker
+          @input  :  Locations Order JSON
+          @output : [
+                  {
+                   'id':'5671dd2ec3a53010188473ce3640dd81', 
+                   'label': '3000 Main Street, Santa Clara'
+                  }
+          ]
+       */
+       function getlocations(locationsOrderData){
+         var locationsArr = [];
+         var locationIds = Object.keys(locationsOrderData);
+         
+         locationIds.forEach(function(location){
+            var eachlocation = {};
+            eachlocation.id = location;
+            eachlocation.label = locationsOrderData[location].label;
+            locationsArr.push(eachlocation);
+         });
+         return locationsArr;
+       }
+
+       /** 
+        * Retrieve Current Items from the Get Locations form the Order Data broker
+          @input  :  Locations Order JSON
+          @output : [{
+                     "offerings": 
+                     [{"id":"69017a0f536520103b6bddeeff7b127d",
+                       "label":"Premium SD-WAN Offering"}],
+                       "quantity":"1"
+                      }]
+                    }]
+       */
+       function getcurrentItems(locationsOrderData){
+          var currentItemsArr = [];
+          var locationIds = Object.keys(locationsOrderData);
+          if(locationIds.length > 0){
+            var ordersData = locationsOrderData[locationIds[0]].ordersData;
+            ordersData.forEach(function(offering){
+              currentItemsArr.push(offering);
+            });
+          }
+          return currentItemsArr;
+       }
+
+       /** 
+        * Retrieve Contact JSON from the Get Locations form the Order Data broker
+          @input  :  Locations Order JSON
+          @output : 
+                  {
+                   'firstName':'Sally', 
+                   'lastName': 'Thomas',
+                   'email': 'sally.thomas@servicenow.com'
+                   'phone': '+1564287650'
+                  }
+       */
+    function getContacts(locationsOrderData){
+         var contactsObj = {};
+         var locationIds = Object.keys(locationsOrderData);
+         
+         if(locationIds.length > 0){
+            var contactData = locationsOrderData[locationIds[0]].contact; 
+            contactsObj.firstName = contactData.firstName;
+            contactsObj.lastName = contactData.lastName;
+            contactsObj.email = contactData.email;
+            contactsObj.phone = contactData.phone;
+         }
+         return contactsObj;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-15 18:27:00</sys_created_on>
+        <sys_id>918555d947623510036bbce5536d43c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Load Location Modal</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_918555d947623510036bbce5536d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-15 18:27:00</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

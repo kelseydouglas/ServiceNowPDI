@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <extension_point display_value="ATT Collection">d6769e1647d23110036bbce5536d43e5</extension_point>
+        <fields/>
+        <icon/>
+        <name>interceptor</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent/>
+        <parent_macroponent_composition_element_id/>
+        <route_type>interceptor</route_type>
+        <screen_type display_value="Default">dd614b40471a3110036bbce5536d43d6</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 15:39:51</sys_created_on>
+        <sys_id>849a52da47d23110036bbce5536d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>interceptor</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_app_route_849a52da47d23110036bbce5536d4382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 15:39:51</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=849a52da47d23110036bbce5536d4382"/>
+</record_update>

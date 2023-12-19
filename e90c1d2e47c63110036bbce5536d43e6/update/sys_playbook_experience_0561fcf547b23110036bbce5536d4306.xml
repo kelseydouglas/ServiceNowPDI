@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience">
+    <sys_playbook_experience action="INSERT_OR_UPDATE">
+        <name>ATT Workspaces Playbook Experience</name>
+        <sys_class_name>sys_playbook_experience</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:14:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0561fcf547b23110036bbce5536d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ATT Workspaces Playbook Experience</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_playbook_experience_0561fcf547b23110036bbce5536d4306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:14:38</sys_updated_on>
+    </sys_playbook_experience>
+</record_update>

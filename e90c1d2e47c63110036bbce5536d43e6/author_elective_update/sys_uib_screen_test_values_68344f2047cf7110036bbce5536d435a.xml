@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "5a46652347a63110036bbce5536d43e2",
+        "inputTable": "sn_ind_tmt_orm_order",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
+    }
+}</macroponent_config>
+        <screen display_value="Playbook Page Default">28344f2047cf7110036bbce5536d4357</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 14:59:02</sys_created_on>
+        <sys_id>68344f2047cf7110036bbce5536d435a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_68344f2047cf7110036bbce5536d435a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 14:59:41</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</application>
+        <file_path/>
+        <instance_id>c90493d81be364d032182f8dee4bcbce</instance_id>
+        <instance_name>dev111524</instance_name>
+        <name>sys_uib_screen_test_values_68344f2047cf7110036bbce5536d435a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "5a46652347a63110036bbce5536d43e2",
+        "inputTable": "sn_ind_tmt_orm_order",
+        "screen": "",
+        "selectedTabIndex": "",
+        "userPrefs": ""
+    }
+}</macroponent_config><screen display_value="Playbook Page Default">28344f2047cf7110036bbce5536d4357</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-08 14:59:02</sys_created_on><sys_id>68344f2047cf7110036bbce5536d435a</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package><sys_policy/><sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope><sys_update_name>sys_uib_screen_test_values_68344f2047cf7110036bbce5536d435a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-08 14:59:41</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-810248480</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>390c1d2e47c63110036bbce5536d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 14:59:41</sys_created_on>
+        <sys_id>4654436047cf7110036bbce5536d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c49f1056d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 14:59:41</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>02544f20dacf7110641af7a41dd7f081</update_guid>
+        <update_guid_history>02544f20dacf7110641af7a41dd7f081:-810248480,20344f207acf711071347fa7400f685c:-1615513892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 15:06:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>1132752f704e46e2823e166eee823c71</sys_id>
+        <sys_metadata>68344f2047cf7110036bbce5536d435a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_scope_delete display_value="">03df7cc3232448a08c5efff9ca7f0610</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_68344f2047cf7110036bbce5536d435a</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_68344f2047cf7110036bbce5536d435a">4654436047cf7110036bbce5536d433f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 15:06:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

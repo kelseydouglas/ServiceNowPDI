@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="af81c7b747473110036bbce5536d4387" sys_domain="global" table="x_876519_att_work_enrichment_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2781c7b747473110036bbce5536d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">a9b6c847470bb110036bbce5536d438b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:07:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f81c7b747473110036bbce5536d438b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #2" display_value="Record #2" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">2381c7b747473110036bbce5536d438a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:07:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:08:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55b1cbb747473110036bbce5536d432d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #3" display_value="Record #3" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">95b183b747473110036bbce5536d4315</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:08:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:08:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bb10fb747473110036bbce5536d431a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #4" display_value="Record #4" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">77b10fb747473110036bbce5536d4318</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:08:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57c147b747473110036bbce5536d4393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #5" display_value="Record #5" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">dfc147b747473110036bbce5536d4390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:08:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:09:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ed18f7747473110036bbce5536d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #6" display_value="Record #6" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">86d18f7747473110036bbce5536d43ac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:09:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:09:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89e1cfb747473110036bbce5536d4343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #7" display_value="Record #7" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">01e1cfb747473110036bbce5536d4341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:09:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:09:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80f14fb747473110036bbce5536d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_876519_att_work_enrichment_table" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">af81c7b747473110036bbce5536d4387</sys_ui_form>
+            <sys_ui_section caption="Record #8" display_value="Record #8" name="x_876519_att_work_enrichment_table" sys_domain="global" view="Default view">b7e14fb747473110036bbce5536d433c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:09:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_876519_att_work_enrichment_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-18 17:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af81c7b747473110036bbce5536d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_876519_att_work_enrichment_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_af81c7b747473110036bbce5536d4387</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-18 17:07:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

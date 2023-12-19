@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 19:10:53</sys_created_on>
+        <sys_id>b63493cd47b63110036bbce5536d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_876519_sd_voice_customer_facing_details</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_db_view_table_b63493cd47b63110036bbce5536d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 19:10:53</sys_updated_on>
+        <table>x_876519_sd_voice_customer_facing_details</table>
+        <variable_prefix>cfd</variable_prefix>
+        <view display_value="x_876519_att_work_cfd_to_prd">c22453cd47b63110036bbce5536d4313</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

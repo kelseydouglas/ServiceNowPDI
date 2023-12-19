@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">60d6638347c63110036bbce5536d43a4</macroponent>
+        <name>Set Initial Data</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+        //Set stepper state based on order category.
+        //This script needs to call from page ready event
+        var stepData = [{
+            "id": "step1",
+            "label": "Create order",
+            "progress": "done",
+            "route": "create"
+        }, {
+            "id": "step2",
+            "label": "Select products",
+            "progress": "none",
+            "disabled": true,
+            "route": "select"
+        }, {
+            "id": "step3",
+            "label": "Configure products",
+            "progress": "none",
+            "disabled": true,
+            "route": "configure"
+        }, {
+            "id": "step4",
+            "label": "Review order",
+            "progress": "none",
+            "disabled": true,
+            "route": "review"
+        }];
+
+        // For service order change the stepper label
+        if (api.context.props.category === "service") {
+            stepData[1].label = "Select service";
+            stepData[2].label = "Configure service";
+        }
+
+        var title = "Add order";
+        // For disconnect order remove configure step from stepper
+        if (api.context.props.type === "disconnect") {
+            stepData.splice(2, 1);
+            stepData[1].route = "invt_select";
+            title = "Cancel order";
+        } // For change order dynamically change teh route for Step2
+        else if (api.context.props.type === "change") {
+            stepData[1].route = "invt_select";
+            title = "Change order";
+        }
+        api.setState("stepperData", stepData);
+
+        if (api.context.props.sysId === "-1") {
+            api.setState("activeStepId", "step1");
+        }
+
+        if (event.payload.name === "sysId" && event.payload.value === "-1") {
+            api.setState("activeStepId", "step1");
+        }
+
+        api.emit("SCREEN_STATUS_CHANGED", {
+            title: title
+        });
+    }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 18:57:56</sys_created_on>
+        <sys_id>a8572f8347c63110036bbce5536d43f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Initial Data</sys_name>
+        <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
+        <sys_update_name>sys_ux_client_script_a8572f8347c63110036bbce5536d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 18:57:56</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
