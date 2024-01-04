@@ -441,7 +441,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7a7066147263110036bbce5536d43a4</sys_id>
-        <sys_mod_count>132</sys_mod_count>
+        <sys_mod_count>133</sys_mod_count>
         <sys_name>Configure default</sys_name>
         <sys_overrides/>
         <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
@@ -449,7 +449,7 @@
         <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
         <sys_update_name>sys_ux_screen_d7a7066147263110036bbce5536d43a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-14 15:48:12</sys_updated_on>
+        <sys_updated_on>2024-01-03 20:32:39</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=d7a7066147263110036bbce5536d43a4"/>
 </record_update>

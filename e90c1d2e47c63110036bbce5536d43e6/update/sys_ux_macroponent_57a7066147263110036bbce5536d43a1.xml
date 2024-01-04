@@ -7231,127 +7231,6 @@
                                                 "operation": null,
                                                 "targetId": "clqddzddseejjaadfmddffhhpaawaiiigdb",
                                                 "type": "EVENT"
-                                            },
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "x_876519_att_work.NAV_ITEM_SELECTED_RELAY_57a7066147263110036bbce5536d43a1",
-                                                    "payload": {
-                                                        "container": {
-                                                            "external": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "fields": {
-                                                                "container": {
-                                                                    "category": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "category"
-                                                                            ],
-                                                                            "category": "props"
-                                                                        },
-                                                                        "type": "CONTEXT_BINDING"
-                                                                    },
-                                                                    "domainSysId": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "activeLineItem",
-                                                                                "id"
-                                                                            ]
-                                                                        },
-                                                                        "type": "STATE_BINDING"
-                                                                    },
-                                                                    "sysId": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "sysId"
-                                                                            ],
-                                                                            "category": "props"
-                                                                        },
-                                                                        "type": "CONTEXT_BINDING"
-                                                                    },
-                                                                    "type": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "type"
-                                                                            ],
-                                                                            "category": "props"
-                                                                        },
-                                                                        "type": "CONTEXT_BINDING"
-                                                                    }
-                                                                },
-                                                                "type": "MAP_CONTAINER"
-                                                            },
-                                                            "multiInstField": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "navigationOptions": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "params": {
-                                                                "container": {
-                                                                    "acount": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "account"
-                                                                            ],
-                                                                            "category": "props"
-                                                                        },
-                                                                        "type": "CONTEXT_BINDING"
-                                                                    },
-                                                                    "characteristic": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "charVal"
-                                                                            ]
-                                                                        },
-                                                                        "type": "STATE_BINDING"
-                                                                    },
-                                                                    "product": {
-                                                                        "type": "JSON_LITERAL",
-                                                                        "value": "@data.get_product_order_1.output"
-                                                                    },
-                                                                    "table": {
-                                                                        "type": "JSON_LITERAL",
-                                                                        "value": "sn_ind_tmt_orm_order_line_item"
-                                                                    }
-                                                                },
-                                                                "type": "MAP_CONTAINER"
-                                                            },
-                                                            "passiveNavigation": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "redirect": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "route": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "enrichment"
-                                                            },
-                                                            "targetRoute": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "title": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "712c16ad47663110036bbce5536d43b0"
-                                                },
-                                                "operation": null,
-                                                "targetId": "clqddzffoojjaaepaaddffhhplzfmggbbk",
-                                                "type": "EVENT"
                                             }
                                         ]
                                     }
@@ -8063,7 +7942,7 @@
                                 ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
-                                    "value": true
+                                    "value": false
                                 },
                                 "preset": null,
                                 "propertyValues": {
@@ -10473,14 +10352,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-16 16:37:09</sys_created_on>
         <sys_id>57a7066147263110036bbce5536d43a1</sys_id>
-        <sys_mod_count>137</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_name>Configure default</sys_name>
         <sys_package display_value="AT&amp;amp;T Workspace" source="x_876519_att_work">e90c1d2e47c63110036bbce5536d43e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="AT&amp;amp;T Workspace">e90c1d2e47c63110036bbce5536d43e6</sys_scope>
         <sys_update_name>sys_ux_macroponent_57a7066147263110036bbce5536d43a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-14 15:48:13</sys_updated_on>
+        <sys_updated_on>2024-01-03 20:32:39</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=57a7066147263110036bbce5536d43a1"/>
 </record_update>
